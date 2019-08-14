@@ -1,0 +1,5286 @@
+{
+  "GEN": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "31"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "25"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "24"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "26"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "32"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "7",
+        "Verses": "24"
+      },
+      {
+        "Chapter": "8",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "9",
+        "Verses": "29"
+      },
+      {
+        "Chapter": "10",
+        "Verses": "32"
+      },
+      {
+        "Chapter": "11",
+        "Verses": "32"
+      },
+      {
+        "Chapter": "12",
+        "Verses": "20"
+      },
+      {
+        "Chapter": "13",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "14",
+        "Verses": "24"
+      },
+      {
+        "Chapter": "15",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "16",
+        "Verses": "16"
+      },
+      {
+        "Chapter": "17",
+        "Verses": "27"
+      },
+      {
+        "Chapter": "18",
+        "Verses": "33"
+      },
+      {
+        "Chapter": "19",
+        "Verses": "38"
+      },
+      {
+        "Chapter": "20",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "21",
+        "Verses": "34"
+      },
+      {
+        "Chapter": "22",
+        "Verses": "24"
+      },
+      {
+        "Chapter": "23",
+        "Verses": "20"
+      },
+      {
+        "Chapter": "24",
+        "Verses": "67"
+      },
+      {
+        "Chapter": "25",
+        "Verses": "34"
+      },
+      {
+        "Chapter": "26",
+        "Verses": "35"
+      },
+      {
+        "Chapter": "27",
+        "Verses": "46"
+      },
+      {
+        "Chapter": "28",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "29",
+        "Verses": "35"
+      },
+      {
+        "Chapter": "30",
+        "Verses": "43"
+      },
+      {
+        "Chapter": "31",
+        "Verses": "55"
+      },
+      {
+        "Chapter": "32",
+        "Verses": "32"
+      },
+      {
+        "Chapter": "33",
+        "Verses": "20"
+      },
+      {
+        "Chapter": "34",
+        "Verses": "31"
+      },
+      {
+        "Chapter": "35",
+        "Verses": "29"
+      },
+      {
+        "Chapter": "36",
+        "Verses": "43"
+      },
+      {
+        "Chapter": "37",
+        "Verses": "36"
+      },
+      {
+        "Chapter": "38",
+        "Verses": "30"
+      },
+      {
+        "Chapter": "39",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "40",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "41",
+        "Verses": "57"
+      },
+      {
+        "Chapter": "42",
+        "Verses": "38"
+      },
+      {
+        "Chapter": "43",
+        "Verses": "34"
+      },
+      {
+        "Chapter": "44",
+        "Verses": "34"
+      },
+      {
+        "Chapter": "45",
+        "Verses": "28"
+      },
+      {
+        "Chapter": "46",
+        "Verses": "34"
+      },
+      {
+        "Chapter": "47",
+        "Verses": "31"
+      },
+      {
+        "Chapter": "48",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "49",
+        "Verses": "33"
+      },
+      {
+        "Chapter": "50",
+        "Verses": "26"
+      }
+    ],
+    "BookID": "1",
+    "BookName": "Genesis",
+    "TotalChapters": "50",
+    "Volume": "OT"
+  },
+  "EXOD": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "25"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "31"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "30"
+      },
+      {
+        "Chapter": "7",
+        "Verses": "25"
+      },
+      {
+        "Chapter": "8",
+        "Verses": "32"
+      },
+      {
+        "Chapter": "9",
+        "Verses": "35"
+      },
+      {
+        "Chapter": "10",
+        "Verses": "29"
+      },
+      {
+        "Chapter": "11",
+        "Verses": "10"
+      },
+      {
+        "Chapter": "12",
+        "Verses": "51"
+      },
+      {
+        "Chapter": "13",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "14",
+        "Verses": "31"
+      },
+      {
+        "Chapter": "15",
+        "Verses": "27"
+      },
+      {
+        "Chapter": "16",
+        "Verses": "36"
+      },
+      {
+        "Chapter": "17",
+        "Verses": "16"
+      },
+      {
+        "Chapter": "18",
+        "Verses": "27"
+      },
+      {
+        "Chapter": "19",
+        "Verses": "25"
+      },
+      {
+        "Chapter": "20",
+        "Verses": "26"
+      },
+      {
+        "Chapter": "21",
+        "Verses": "36"
+      },
+      {
+        "Chapter": "22",
+        "Verses": "31"
+      },
+      {
+        "Chapter": "23",
+        "Verses": "33"
+      },
+      {
+        "Chapter": "24",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "25",
+        "Verses": "40"
+      },
+      {
+        "Chapter": "26",
+        "Verses": "37"
+      },
+      {
+        "Chapter": "27",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "28",
+        "Verses": "43"
+      },
+      {
+        "Chapter": "29",
+        "Verses": "46"
+      },
+      {
+        "Chapter": "30",
+        "Verses": "38"
+      },
+      {
+        "Chapter": "31",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "32",
+        "Verses": "35"
+      },
+      {
+        "Chapter": "33",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "34",
+        "Verses": "35"
+      },
+      {
+        "Chapter": "35",
+        "Verses": "35"
+      },
+      {
+        "Chapter": "36",
+        "Verses": "38"
+      },
+      {
+        "Chapter": "37",
+        "Verses": "29"
+      },
+      {
+        "Chapter": "38",
+        "Verses": "31"
+      },
+      {
+        "Chapter": "39",
+        "Verses": "43"
+      },
+      {
+        "Chapter": "40",
+        "Verses": "38"
+      }
+    ],
+    "BookID": "2",
+    "BookName": "Exodus",
+    "TotalChapters": "40",
+    "Volume": "OT"
+  },
+  "LEV": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "16"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "35"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "19"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "30"
+      },
+      {
+        "Chapter": "7",
+        "Verses": "38"
+      },
+      {
+        "Chapter": "8",
+        "Verses": "36"
+      },
+      {
+        "Chapter": "9",
+        "Verses": "24"
+      },
+      {
+        "Chapter": "10",
+        "Verses": "20"
+      },
+      {
+        "Chapter": "11",
+        "Verses": "47"
+      },
+      {
+        "Chapter": "12",
+        "Verses": "8"
+      },
+      {
+        "Chapter": "13",
+        "Verses": "59"
+      },
+      {
+        "Chapter": "14",
+        "Verses": "57"
+      },
+      {
+        "Chapter": "15",
+        "Verses": "33"
+      },
+      {
+        "Chapter": "16",
+        "Verses": "34"
+      },
+      {
+        "Chapter": "17",
+        "Verses": "16"
+      },
+      {
+        "Chapter": "18",
+        "Verses": "30"
+      },
+      {
+        "Chapter": "19",
+        "Verses": "37"
+      },
+      {
+        "Chapter": "20",
+        "Verses": "27"
+      },
+      {
+        "Chapter": "21",
+        "Verses": "24"
+      },
+      {
+        "Chapter": "22",
+        "Verses": "33"
+      },
+      {
+        "Chapter": "23",
+        "Verses": "44"
+      },
+      {
+        "Chapter": "24",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "25",
+        "Verses": "55"
+      },
+      {
+        "Chapter": "26",
+        "Verses": "46"
+      },
+      {
+        "Chapter": "27",
+        "Verses": "34"
+      }
+    ],
+    "BookID": "3",
+    "BookName": "Leviticus",
+    "TotalChapters": "27",
+    "Volume": "OT"
+  },
+  "NUM": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "54"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "34"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "51"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "49"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "31"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "27"
+      },
+      {
+        "Chapter": "7",
+        "Verses": "89"
+      },
+      {
+        "Chapter": "8",
+        "Verses": "26"
+      },
+      {
+        "Chapter": "9",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "10",
+        "Verses": "36"
+      },
+      {
+        "Chapter": "11",
+        "Verses": "35"
+      },
+      {
+        "Chapter": "12",
+        "Verses": "16"
+      },
+      {
+        "Chapter": "13",
+        "Verses": "33"
+      },
+      {
+        "Chapter": "14",
+        "Verses": "45"
+      },
+      {
+        "Chapter": "15",
+        "Verses": "41"
+      },
+      {
+        "Chapter": "16",
+        "Verses": "50"
+      },
+      {
+        "Chapter": "17",
+        "Verses": "13"
+      },
+      {
+        "Chapter": "18",
+        "Verses": "32"
+      },
+      {
+        "Chapter": "19",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "20",
+        "Verses": "29"
+      },
+      {
+        "Chapter": "21",
+        "Verses": "35"
+      },
+      {
+        "Chapter": "22",
+        "Verses": "41"
+      },
+      {
+        "Chapter": "23",
+        "Verses": "30"
+      },
+      {
+        "Chapter": "24",
+        "Verses": "25"
+      },
+      {
+        "Chapter": "25",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "26",
+        "Verses": "65"
+      },
+      {
+        "Chapter": "27",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "28",
+        "Verses": "31"
+      },
+      {
+        "Chapter": "29",
+        "Verses": "40"
+      },
+      {
+        "Chapter": "30",
+        "Verses": "16"
+      },
+      {
+        "Chapter": "31",
+        "Verses": "54"
+      },
+      {
+        "Chapter": "32",
+        "Verses": "42"
+      },
+      {
+        "Chapter": "33",
+        "Verses": "56"
+      },
+      {
+        "Chapter": "34",
+        "Verses": "29"
+      },
+      {
+        "Chapter": "35",
+        "Verses": "34"
+      },
+      {
+        "Chapter": "36",
+        "Verses": "13"
+      }
+    ],
+    "BookID": "4",
+    "BookName": "Numbers",
+    "TotalChapters": "36",
+    "Volume": "OT"
+  },
+  "DEUT": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "46"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "37"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "29"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "49"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "33"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "25"
+      },
+      {
+        "Chapter": "7",
+        "Verses": "26"
+      },
+      {
+        "Chapter": "8",
+        "Verses": "20"
+      },
+      {
+        "Chapter": "9",
+        "Verses": "29"
+      },
+      {
+        "Chapter": "10",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "11",
+        "Verses": "32"
+      },
+      {
+        "Chapter": "12",
+        "Verses": "32"
+      },
+      {
+        "Chapter": "13",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "14",
+        "Verses": "29"
+      },
+      {
+        "Chapter": "15",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "16",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "17",
+        "Verses": "20"
+      },
+      {
+        "Chapter": "18",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "19",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "20",
+        "Verses": "20"
+      },
+      {
+        "Chapter": "21",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "22",
+        "Verses": "30"
+      },
+      {
+        "Chapter": "23",
+        "Verses": "25"
+      },
+      {
+        "Chapter": "24",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "25",
+        "Verses": "19"
+      },
+      {
+        "Chapter": "26",
+        "Verses": "19"
+      },
+      {
+        "Chapter": "27",
+        "Verses": "26"
+      },
+      {
+        "Chapter": "28",
+        "Verses": "68"
+      },
+      {
+        "Chapter": "29",
+        "Verses": "29"
+      },
+      {
+        "Chapter": "30",
+        "Verses": "20"
+      },
+      {
+        "Chapter": "31",
+        "Verses": "30"
+      },
+      {
+        "Chapter": "32",
+        "Verses": "52"
+      },
+      {
+        "Chapter": "33",
+        "Verses": "29"
+      },
+      {
+        "Chapter": "34",
+        "Verses": "12"
+      }
+    ],
+    "BookID": "5",
+    "BookName": "Deuteronomy",
+    "TotalChapters": "34",
+    "Volume": "OT"
+  },
+  "JOSH": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "24"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "24"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "15"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "27"
+      },
+      {
+        "Chapter": "7",
+        "Verses": "26"
+      },
+      {
+        "Chapter": "8",
+        "Verses": "35"
+      },
+      {
+        "Chapter": "9",
+        "Verses": "27"
+      },
+      {
+        "Chapter": "10",
+        "Verses": "43"
+      },
+      {
+        "Chapter": "11",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "12",
+        "Verses": "24"
+      },
+      {
+        "Chapter": "13",
+        "Verses": "33"
+      },
+      {
+        "Chapter": "14",
+        "Verses": "15"
+      },
+      {
+        "Chapter": "15",
+        "Verses": "63"
+      },
+      {
+        "Chapter": "16",
+        "Verses": "10"
+      },
+      {
+        "Chapter": "17",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "18",
+        "Verses": "28"
+      },
+      {
+        "Chapter": "19",
+        "Verses": "51"
+      },
+      {
+        "Chapter": "20",
+        "Verses": "9"
+      },
+      {
+        "Chapter": "21",
+        "Verses": "45"
+      },
+      {
+        "Chapter": "22",
+        "Verses": "34"
+      },
+      {
+        "Chapter": "23",
+        "Verses": "16"
+      },
+      {
+        "Chapter": "24",
+        "Verses": "33"
+      }
+    ],
+    "BookID": "6",
+    "BookName": "Joshua",
+    "TotalChapters": "24",
+    "Volume": "OT"
+  },
+  "JUDG": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "36"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "31"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "24"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "31"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "40"
+      },
+      {
+        "Chapter": "7",
+        "Verses": "25"
+      },
+      {
+        "Chapter": "8",
+        "Verses": "35"
+      },
+      {
+        "Chapter": "9",
+        "Verses": "57"
+      },
+      {
+        "Chapter": "10",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "11",
+        "Verses": "40"
+      },
+      {
+        "Chapter": "12",
+        "Verses": "15"
+      },
+      {
+        "Chapter": "13",
+        "Verses": "25"
+      },
+      {
+        "Chapter": "14",
+        "Verses": "20"
+      },
+      {
+        "Chapter": "15",
+        "Verses": "20"
+      },
+      {
+        "Chapter": "16",
+        "Verses": "31"
+      },
+      {
+        "Chapter": "17",
+        "Verses": "13"
+      },
+      {
+        "Chapter": "18",
+        "Verses": "31"
+      },
+      {
+        "Chapter": "19",
+        "Verses": "30"
+      },
+      {
+        "Chapter": "20",
+        "Verses": "48"
+      },
+      {
+        "Chapter": "21",
+        "Verses": "25"
+      }
+    ],
+    "BookID": "7",
+    "BookName": "Judges",
+    "TotalChapters": "21",
+    "Volume": "OT"
+  },
+  "RUTH": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "22"
+      }
+    ],
+    "BookID": "8",
+    "BookName": "Ruth",
+    "TotalChapters": "4",
+    "Volume": "OT"
+  },
+  "1SAM": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "28"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "36"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "12"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "7",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "8",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "9",
+        "Verses": "27"
+      },
+      {
+        "Chapter": "10",
+        "Verses": "27"
+      },
+      {
+        "Chapter": "11",
+        "Verses": "15"
+      },
+      {
+        "Chapter": "12",
+        "Verses": "25"
+      },
+      {
+        "Chapter": "13",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "14",
+        "Verses": "52"
+      },
+      {
+        "Chapter": "15",
+        "Verses": "35"
+      },
+      {
+        "Chapter": "16",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "17",
+        "Verses": "58"
+      },
+      {
+        "Chapter": "18",
+        "Verses": "30"
+      },
+      {
+        "Chapter": "19",
+        "Verses": "24"
+      },
+      {
+        "Chapter": "20",
+        "Verses": "42"
+      },
+      {
+        "Chapter": "21",
+        "Verses": "15"
+      },
+      {
+        "Chapter": "22",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "23",
+        "Verses": "29"
+      },
+      {
+        "Chapter": "24",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "25",
+        "Verses": "44"
+      },
+      {
+        "Chapter": "26",
+        "Verses": "25"
+      },
+      {
+        "Chapter": "27",
+        "Verses": "12"
+      },
+      {
+        "Chapter": "28",
+        "Verses": "25"
+      },
+      {
+        "Chapter": "29",
+        "Verses": "11"
+      },
+      {
+        "Chapter": "30",
+        "Verses": "31"
+      },
+      {
+        "Chapter": "31",
+        "Verses": "13"
+      }
+    ],
+    "BookID": "9",
+    "BookName": "1 Samuel",
+    "TotalChapters": "31",
+    "Volume": "OT"
+  },
+  "2SAM": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "27"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "32"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "39"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "12"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "25"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "7",
+        "Verses": "29"
+      },
+      {
+        "Chapter": "8",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "9",
+        "Verses": "13"
+      },
+      {
+        "Chapter": "10",
+        "Verses": "19"
+      },
+      {
+        "Chapter": "11",
+        "Verses": "27"
+      },
+      {
+        "Chapter": "12",
+        "Verses": "31"
+      },
+      {
+        "Chapter": "13",
+        "Verses": "39"
+      },
+      {
+        "Chapter": "14",
+        "Verses": "33"
+      },
+      {
+        "Chapter": "15",
+        "Verses": "37"
+      },
+      {
+        "Chapter": "16",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "17",
+        "Verses": "29"
+      },
+      {
+        "Chapter": "18",
+        "Verses": "33"
+      },
+      {
+        "Chapter": "19",
+        "Verses": "43"
+      },
+      {
+        "Chapter": "20",
+        "Verses": "26"
+      },
+      {
+        "Chapter": "21",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "22",
+        "Verses": "51"
+      },
+      {
+        "Chapter": "23",
+        "Verses": "39"
+      },
+      {
+        "Chapter": "24",
+        "Verses": "25"
+      }
+    ],
+    "BookID": "10",
+    "BookName": "2 Samuel",
+    "TotalChapters": "24",
+    "Volume": "OT"
+  },
+  "1KGS": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "53"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "46"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "28"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "34"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "38"
+      },
+      {
+        "Chapter": "7",
+        "Verses": "51"
+      },
+      {
+        "Chapter": "8",
+        "Verses": "66"
+      },
+      {
+        "Chapter": "9",
+        "Verses": "28"
+      },
+      {
+        "Chapter": "10",
+        "Verses": "29"
+      },
+      {
+        "Chapter": "11",
+        "Verses": "43"
+      },
+      {
+        "Chapter": "12",
+        "Verses": "33"
+      },
+      {
+        "Chapter": "13",
+        "Verses": "34"
+      },
+      {
+        "Chapter": "14",
+        "Verses": "31"
+      },
+      {
+        "Chapter": "15",
+        "Verses": "34"
+      },
+      {
+        "Chapter": "16",
+        "Verses": "34"
+      },
+      {
+        "Chapter": "17",
+        "Verses": "24"
+      },
+      {
+        "Chapter": "18",
+        "Verses": "46"
+      },
+      {
+        "Chapter": "19",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "20",
+        "Verses": "43"
+      },
+      {
+        "Chapter": "21",
+        "Verses": "29"
+      },
+      {
+        "Chapter": "22",
+        "Verses": "53"
+      }
+    ],
+    "BookID": "11",
+    "BookName": "1 Kings",
+    "TotalChapters": "22",
+    "Volume": "OT"
+  },
+  "2KGS": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "25"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "27"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "44"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "27"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "33"
+      },
+      {
+        "Chapter": "7",
+        "Verses": "20"
+      },
+      {
+        "Chapter": "8",
+        "Verses": "29"
+      },
+      {
+        "Chapter": "9",
+        "Verses": "37"
+      },
+      {
+        "Chapter": "10",
+        "Verses": "36"
+      },
+      {
+        "Chapter": "11",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "12",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "13",
+        "Verses": "25"
+      },
+      {
+        "Chapter": "14",
+        "Verses": "29"
+      },
+      {
+        "Chapter": "15",
+        "Verses": "38"
+      },
+      {
+        "Chapter": "16",
+        "Verses": "20"
+      },
+      {
+        "Chapter": "17",
+        "Verses": "41"
+      },
+      {
+        "Chapter": "18",
+        "Verses": "37"
+      },
+      {
+        "Chapter": "19",
+        "Verses": "37"
+      },
+      {
+        "Chapter": "20",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "21",
+        "Verses": "26"
+      },
+      {
+        "Chapter": "22",
+        "Verses": "20"
+      },
+      {
+        "Chapter": "23",
+        "Verses": "37"
+      },
+      {
+        "Chapter": "24",
+        "Verses": "20"
+      },
+      {
+        "Chapter": "25",
+        "Verses": "30"
+      }
+    ],
+    "BookID": "12",
+    "BookName": "2 Kings",
+    "TotalChapters": "25",
+    "Volume": "OT"
+  },
+  "1CHR": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "54"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "55"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "24"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "43"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "26"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "81"
+      },
+      {
+        "Chapter": "7",
+        "Verses": "40"
+      },
+      {
+        "Chapter": "8",
+        "Verses": "40"
+      },
+      {
+        "Chapter": "9",
+        "Verses": "44"
+      },
+      {
+        "Chapter": "10",
+        "Verses": "14"
+      },
+      {
+        "Chapter": "11",
+        "Verses": "47"
+      },
+      {
+        "Chapter": "12",
+        "Verses": "40"
+      },
+      {
+        "Chapter": "13",
+        "Verses": "14"
+      },
+      {
+        "Chapter": "14",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "15",
+        "Verses": "29"
+      },
+      {
+        "Chapter": "16",
+        "Verses": "43"
+      },
+      {
+        "Chapter": "17",
+        "Verses": "27"
+      },
+      {
+        "Chapter": "18",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "19",
+        "Verses": "19"
+      },
+      {
+        "Chapter": "20",
+        "Verses": "8"
+      },
+      {
+        "Chapter": "21",
+        "Verses": "30"
+      },
+      {
+        "Chapter": "22",
+        "Verses": "19"
+      },
+      {
+        "Chapter": "23",
+        "Verses": "32"
+      },
+      {
+        "Chapter": "24",
+        "Verses": "31"
+      },
+      {
+        "Chapter": "25",
+        "Verses": "31"
+      },
+      {
+        "Chapter": "26",
+        "Verses": "32"
+      },
+      {
+        "Chapter": "27",
+        "Verses": "34"
+      },
+      {
+        "Chapter": "28",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "29",
+        "Verses": "30"
+      }
+    ],
+    "BookID": "13",
+    "BookName": "1 Chronicles",
+    "TotalChapters": "29",
+    "Volume": "OT"
+  },
+  "2CHR": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "14"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "42"
+      },
+      {
+        "Chapter": "7",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "8",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "9",
+        "Verses": "31"
+      },
+      {
+        "Chapter": "10",
+        "Verses": "19"
+      },
+      {
+        "Chapter": "11",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "12",
+        "Verses": "16"
+      },
+      {
+        "Chapter": "13",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "14",
+        "Verses": "15"
+      },
+      {
+        "Chapter": "15",
+        "Verses": "19"
+      },
+      {
+        "Chapter": "16",
+        "Verses": "14"
+      },
+      {
+        "Chapter": "17",
+        "Verses": "19"
+      },
+      {
+        "Chapter": "18",
+        "Verses": "34"
+      },
+      {
+        "Chapter": "19",
+        "Verses": "11"
+      },
+      {
+        "Chapter": "20",
+        "Verses": "37"
+      },
+      {
+        "Chapter": "21",
+        "Verses": "20"
+      },
+      {
+        "Chapter": "22",
+        "Verses": "12"
+      },
+      {
+        "Chapter": "23",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "24",
+        "Verses": "27"
+      },
+      {
+        "Chapter": "25",
+        "Verses": "28"
+      },
+      {
+        "Chapter": "26",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "27",
+        "Verses": "9"
+      },
+      {
+        "Chapter": "28",
+        "Verses": "27"
+      },
+      {
+        "Chapter": "29",
+        "Verses": "36"
+      },
+      {
+        "Chapter": "30",
+        "Verses": "27"
+      },
+      {
+        "Chapter": "31",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "32",
+        "Verses": "33"
+      },
+      {
+        "Chapter": "33",
+        "Verses": "25"
+      },
+      {
+        "Chapter": "34",
+        "Verses": "33"
+      },
+      {
+        "Chapter": "35",
+        "Verses": "27"
+      },
+      {
+        "Chapter": "36",
+        "Verses": "23"
+      }
+    ],
+    "BookID": "14",
+    "BookName": "2 Chronicles",
+    "TotalChapters": "36",
+    "Volume": "OT"
+  },
+  "EZRA": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "11"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "70"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "13"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "24"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "7",
+        "Verses": "28"
+      },
+      {
+        "Chapter": "8",
+        "Verses": "36"
+      },
+      {
+        "Chapter": "9",
+        "Verses": "15"
+      },
+      {
+        "Chapter": "10",
+        "Verses": "44"
+      }
+    ],
+    "BookID": "15",
+    "BookName": "Ezra",
+    "TotalChapters": "10",
+    "Volume": "OT"
+  },
+  "NEH": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "11"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "20"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "32"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "19"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "19"
+      },
+      {
+        "Chapter": "7",
+        "Verses": "73"
+      },
+      {
+        "Chapter": "8",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "9",
+        "Verses": "38"
+      },
+      {
+        "Chapter": "10",
+        "Verses": "39"
+      },
+      {
+        "Chapter": "11",
+        "Verses": "36"
+      },
+      {
+        "Chapter": "12",
+        "Verses": "47"
+      },
+      {
+        "Chapter": "13",
+        "Verses": "31"
+      }
+    ],
+    "BookID": "16",
+    "BookName": "Nehemiah",
+    "TotalChapters": "13",
+    "Volume": "OT"
+  },
+  "ESTH": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "15"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "14"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "14"
+      },
+      {
+        "Chapter": "7",
+        "Verses": "10"
+      },
+      {
+        "Chapter": "8",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "9",
+        "Verses": "32"
+      },
+      {
+        "Chapter": "10",
+        "Verses": "3"
+      }
+    ],
+    "BookID": "17",
+    "BookName": "Esther",
+    "TotalChapters": "10",
+    "Volume": "OT"
+  },
+  "JOB": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "13"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "26"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "27"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "30"
+      },
+      {
+        "Chapter": "7",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "8",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "9",
+        "Verses": "35"
+      },
+      {
+        "Chapter": "10",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "11",
+        "Verses": "20"
+      },
+      {
+        "Chapter": "12",
+        "Verses": "25"
+      },
+      {
+        "Chapter": "13",
+        "Verses": "28"
+      },
+      {
+        "Chapter": "14",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "15",
+        "Verses": "35"
+      },
+      {
+        "Chapter": "16",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "17",
+        "Verses": "16"
+      },
+      {
+        "Chapter": "18",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "19",
+        "Verses": "29"
+      },
+      {
+        "Chapter": "20",
+        "Verses": "29"
+      },
+      {
+        "Chapter": "21",
+        "Verses": "34"
+      },
+      {
+        "Chapter": "22",
+        "Verses": "30"
+      },
+      {
+        "Chapter": "23",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "24",
+        "Verses": "25"
+      },
+      {
+        "Chapter": "25",
+        "Verses": "6"
+      },
+      {
+        "Chapter": "26",
+        "Verses": "14"
+      },
+      {
+        "Chapter": "27",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "28",
+        "Verses": "28"
+      },
+      {
+        "Chapter": "29",
+        "Verses": "25"
+      },
+      {
+        "Chapter": "30",
+        "Verses": "31"
+      },
+      {
+        "Chapter": "31",
+        "Verses": "40"
+      },
+      {
+        "Chapter": "32",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "33",
+        "Verses": "33"
+      },
+      {
+        "Chapter": "34",
+        "Verses": "37"
+      },
+      {
+        "Chapter": "35",
+        "Verses": "16"
+      },
+      {
+        "Chapter": "36",
+        "Verses": "33"
+      },
+      {
+        "Chapter": "37",
+        "Verses": "24"
+      },
+      {
+        "Chapter": "38",
+        "Verses": "41"
+      },
+      {
+        "Chapter": "39",
+        "Verses": "30"
+      },
+      {
+        "Chapter": "40",
+        "Verses": "24"
+      },
+      {
+        "Chapter": "41",
+        "Verses": "34"
+      },
+      {
+        "Chapter": "42",
+        "Verses": "17"
+      }
+    ],
+    "BookID": "18",
+    "BookName": "Job",
+    "TotalChapters": "42",
+    "Volume": "OT"
+  },
+  "PS": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "6"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "12"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "8"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "8"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "12"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "10"
+      },
+      {
+        "Chapter": "7",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "8",
+        "Verses": "9"
+      },
+      {
+        "Chapter": "9",
+        "Verses": "20"
+      },
+      {
+        "Chapter": "10",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "11",
+        "Verses": "7"
+      },
+      {
+        "Chapter": "12",
+        "Verses": "8"
+      },
+      {
+        "Chapter": "13",
+        "Verses": "6"
+      },
+      {
+        "Chapter": "14",
+        "Verses": "7"
+      },
+      {
+        "Chapter": "15",
+        "Verses": "5"
+      },
+      {
+        "Chapter": "16",
+        "Verses": "11"
+      },
+      {
+        "Chapter": "17",
+        "Verses": "15"
+      },
+      {
+        "Chapter": "18",
+        "Verses": "50"
+      },
+      {
+        "Chapter": "19",
+        "Verses": "14"
+      },
+      {
+        "Chapter": "20",
+        "Verses": "9"
+      },
+      {
+        "Chapter": "21",
+        "Verses": "13"
+      },
+      {
+        "Chapter": "22",
+        "Verses": "31"
+      },
+      {
+        "Chapter": "23",
+        "Verses": "6"
+      },
+      {
+        "Chapter": "24",
+        "Verses": "10"
+      },
+      {
+        "Chapter": "25",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "26",
+        "Verses": "12"
+      },
+      {
+        "Chapter": "27",
+        "Verses": "14"
+      },
+      {
+        "Chapter": "28",
+        "Verses": "9"
+      },
+      {
+        "Chapter": "29",
+        "Verses": "11"
+      },
+      {
+        "Chapter": "30",
+        "Verses": "12"
+      },
+      {
+        "Chapter": "31",
+        "Verses": "24"
+      },
+      {
+        "Chapter": "32",
+        "Verses": "11"
+      },
+      {
+        "Chapter": "33",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "34",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "35",
+        "Verses": "28"
+      },
+      {
+        "Chapter": "36",
+        "Verses": "12"
+      },
+      {
+        "Chapter": "37",
+        "Verses": "40"
+      },
+      {
+        "Chapter": "38",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "39",
+        "Verses": "13"
+      },
+      {
+        "Chapter": "40",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "41",
+        "Verses": "13"
+      },
+      {
+        "Chapter": "42",
+        "Verses": "11"
+      },
+      {
+        "Chapter": "43",
+        "Verses": "5"
+      },
+      {
+        "Chapter": "44",
+        "Verses": "26"
+      },
+      {
+        "Chapter": "45",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "46",
+        "Verses": "11"
+      },
+      {
+        "Chapter": "47",
+        "Verses": "9"
+      },
+      {
+        "Chapter": "48",
+        "Verses": "14"
+      },
+      {
+        "Chapter": "49",
+        "Verses": "20"
+      },
+      {
+        "Chapter": "50",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "51",
+        "Verses": "19"
+      },
+      {
+        "Chapter": "52",
+        "Verses": "9"
+      },
+      {
+        "Chapter": "53",
+        "Verses": "6"
+      },
+      {
+        "Chapter": "54",
+        "Verses": "7"
+      },
+      {
+        "Chapter": "55",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "56",
+        "Verses": "13"
+      },
+      {
+        "Chapter": "57",
+        "Verses": "11"
+      },
+      {
+        "Chapter": "58",
+        "Verses": "11"
+      },
+      {
+        "Chapter": "59",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "60",
+        "Verses": "12"
+      },
+      {
+        "Chapter": "61",
+        "Verses": "8"
+      },
+      {
+        "Chapter": "62",
+        "Verses": "12"
+      },
+      {
+        "Chapter": "63",
+        "Verses": "11"
+      },
+      {
+        "Chapter": "64",
+        "Verses": "10"
+      },
+      {
+        "Chapter": "65",
+        "Verses": "13"
+      },
+      {
+        "Chapter": "66",
+        "Verses": "20"
+      },
+      {
+        "Chapter": "67",
+        "Verses": "7"
+      },
+      {
+        "Chapter": "68",
+        "Verses": "35"
+      },
+      {
+        "Chapter": "69",
+        "Verses": "36"
+      },
+      {
+        "Chapter": "70",
+        "Verses": "5"
+      },
+      {
+        "Chapter": "71",
+        "Verses": "24"
+      },
+      {
+        "Chapter": "72",
+        "Verses": "20"
+      },
+      {
+        "Chapter": "73",
+        "Verses": "28"
+      },
+      {
+        "Chapter": "74",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "75",
+        "Verses": "10"
+      },
+      {
+        "Chapter": "76",
+        "Verses": "12"
+      },
+      {
+        "Chapter": "77",
+        "Verses": "20"
+      },
+      {
+        "Chapter": "78",
+        "Verses": "72"
+      },
+      {
+        "Chapter": "79",
+        "Verses": "13"
+      },
+      {
+        "Chapter": "80",
+        "Verses": "19"
+      },
+      {
+        "Chapter": "81",
+        "Verses": "16"
+      },
+      {
+        "Chapter": "82",
+        "Verses": "8"
+      },
+      {
+        "Chapter": "83",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "84",
+        "Verses": "12"
+      },
+      {
+        "Chapter": "85",
+        "Verses": "13"
+      },
+      {
+        "Chapter": "86",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "87",
+        "Verses": "7"
+      },
+      {
+        "Chapter": "88",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "89",
+        "Verses": "52"
+      },
+      {
+        "Chapter": "90",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "91",
+        "Verses": "16"
+      },
+      {
+        "Chapter": "92",
+        "Verses": "15"
+      },
+      {
+        "Chapter": "93",
+        "Verses": "5"
+      },
+      {
+        "Chapter": "94",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "95",
+        "Verses": "11"
+      },
+      {
+        "Chapter": "96",
+        "Verses": "13"
+      },
+      {
+        "Chapter": "97",
+        "Verses": "12"
+      },
+      {
+        "Chapter": "98",
+        "Verses": "9"
+      },
+      {
+        "Chapter": "99",
+        "Verses": "9"
+      },
+      {
+        "Chapter": "100",
+        "Verses": "5"
+      },
+      {
+        "Chapter": "101",
+        "Verses": "8"
+      },
+      {
+        "Chapter": "102",
+        "Verses": "28"
+      },
+      {
+        "Chapter": "103",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "104",
+        "Verses": "35"
+      },
+      {
+        "Chapter": "105",
+        "Verses": "45"
+      },
+      {
+        "Chapter": "106",
+        "Verses": "48"
+      },
+      {
+        "Chapter": "107",
+        "Verses": "43"
+      },
+      {
+        "Chapter": "108",
+        "Verses": "13"
+      },
+      {
+        "Chapter": "109",
+        "Verses": "31"
+      },
+      {
+        "Chapter": "110",
+        "Verses": "7"
+      },
+      {
+        "Chapter": "111",
+        "Verses": "10"
+      },
+      {
+        "Chapter": "112",
+        "Verses": "10"
+      },
+      {
+        "Chapter": "113",
+        "Verses": "9"
+      },
+      {
+        "Chapter": "114",
+        "Verses": "8"
+      },
+      {
+        "Chapter": "115",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "116",
+        "Verses": "19"
+      },
+      {
+        "Chapter": "117",
+        "Verses": "2"
+      },
+      {
+        "Chapter": "118",
+        "Verses": "29"
+      },
+      {
+        "Chapter": "119",
+        "Verses": "176"
+      },
+      {
+        "Chapter": "120",
+        "Verses": "7"
+      },
+      {
+        "Chapter": "121",
+        "Verses": "8"
+      },
+      {
+        "Chapter": "122",
+        "Verses": "9"
+      },
+      {
+        "Chapter": "123",
+        "Verses": "4"
+      },
+      {
+        "Chapter": "124",
+        "Verses": "8"
+      },
+      {
+        "Chapter": "125",
+        "Verses": "5"
+      },
+      {
+        "Chapter": "126",
+        "Verses": "6"
+      },
+      {
+        "Chapter": "127",
+        "Verses": "5"
+      },
+      {
+        "Chapter": "128",
+        "Verses": "6"
+      },
+      {
+        "Chapter": "129",
+        "Verses": "8"
+      },
+      {
+        "Chapter": "130",
+        "Verses": "8"
+      },
+      {
+        "Chapter": "131",
+        "Verses": "3"
+      },
+      {
+        "Chapter": "132",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "133",
+        "Verses": "3"
+      },
+      {
+        "Chapter": "134",
+        "Verses": "3"
+      },
+      {
+        "Chapter": "135",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "136",
+        "Verses": "26"
+      },
+      {
+        "Chapter": "137",
+        "Verses": "9"
+      },
+      {
+        "Chapter": "138",
+        "Verses": "8"
+      },
+      {
+        "Chapter": "139",
+        "Verses": "24"
+      },
+      {
+        "Chapter": "140",
+        "Verses": "13"
+      },
+      {
+        "Chapter": "141",
+        "Verses": "10"
+      },
+      {
+        "Chapter": "142",
+        "Verses": "7"
+      },
+      {
+        "Chapter": "143",
+        "Verses": "12"
+      },
+      {
+        "Chapter": "144",
+        "Verses": "15"
+      },
+      {
+        "Chapter": "145",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "146",
+        "Verses": "10"
+      },
+      {
+        "Chapter": "147",
+        "Verses": "20"
+      },
+      {
+        "Chapter": "148",
+        "Verses": "14"
+      },
+      {
+        "Chapter": "149",
+        "Verses": "9"
+      },
+      {
+        "Chapter": "150",
+        "Verses": "6"
+      }
+    ],
+    "BookID": "19",
+    "BookName": "Psalms",
+    "TotalChapters": "150",
+    "Volume": "OT"
+  },
+  "PROV": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "33"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "35"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "27"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "35"
+      },
+      {
+        "Chapter": "7",
+        "Verses": "27"
+      },
+      {
+        "Chapter": "8",
+        "Verses": "36"
+      },
+      {
+        "Chapter": "9",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "10",
+        "Verses": "32"
+      },
+      {
+        "Chapter": "11",
+        "Verses": "31"
+      },
+      {
+        "Chapter": "12",
+        "Verses": "28"
+      },
+      {
+        "Chapter": "13",
+        "Verses": "25"
+      },
+      {
+        "Chapter": "14",
+        "Verses": "35"
+      },
+      {
+        "Chapter": "15",
+        "Verses": "33"
+      },
+      {
+        "Chapter": "16",
+        "Verses": "33"
+      },
+      {
+        "Chapter": "17",
+        "Verses": "28"
+      },
+      {
+        "Chapter": "18",
+        "Verses": "24"
+      },
+      {
+        "Chapter": "19",
+        "Verses": "29"
+      },
+      {
+        "Chapter": "20",
+        "Verses": "30"
+      },
+      {
+        "Chapter": "21",
+        "Verses": "31"
+      },
+      {
+        "Chapter": "22",
+        "Verses": "29"
+      },
+      {
+        "Chapter": "23",
+        "Verses": "35"
+      },
+      {
+        "Chapter": "24",
+        "Verses": "34"
+      },
+      {
+        "Chapter": "25",
+        "Verses": "28"
+      },
+      {
+        "Chapter": "26",
+        "Verses": "28"
+      },
+      {
+        "Chapter": "27",
+        "Verses": "27"
+      },
+      {
+        "Chapter": "28",
+        "Verses": "28"
+      },
+      {
+        "Chapter": "29",
+        "Verses": "27"
+      },
+      {
+        "Chapter": "30",
+        "Verses": "33"
+      },
+      {
+        "Chapter": "31",
+        "Verses": "31"
+      }
+    ],
+    "BookID": "20",
+    "BookName": "Proverbs",
+    "TotalChapters": "31",
+    "Volume": "OT"
+  },
+  "ECCL": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "26"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "16"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "20"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "12"
+      },
+      {
+        "Chapter": "7",
+        "Verses": "29"
+      },
+      {
+        "Chapter": "8",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "9",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "10",
+        "Verses": "20"
+      },
+      {
+        "Chapter": "11",
+        "Verses": "10"
+      },
+      {
+        "Chapter": "12",
+        "Verses": "14"
+      }
+    ],
+    "BookID": "21",
+    "BookName": "Ecclesiastes",
+    "TotalChapters": "12",
+    "Volume": "OT"
+  },
+  "SONG": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "11"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "16"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "16"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "13"
+      },
+      {
+        "Chapter": "7",
+        "Verses": "13"
+      },
+      {
+        "Chapter": "8",
+        "Verses": "14"
+      }
+    ],
+    "BookID": "22",
+    "BookName": "Song of Solomon",
+    "TotalChapters": "8",
+    "Volume": "OT"
+  },
+  "ISA": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "31"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "26"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "6"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "30"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "13"
+      },
+      {
+        "Chapter": "7",
+        "Verses": "25"
+      },
+      {
+        "Chapter": "8",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "9",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "10",
+        "Verses": "34"
+      },
+      {
+        "Chapter": "11",
+        "Verses": "16"
+      },
+      {
+        "Chapter": "12",
+        "Verses": "6"
+      },
+      {
+        "Chapter": "13",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "14",
+        "Verses": "32"
+      },
+      {
+        "Chapter": "15",
+        "Verses": "9"
+      },
+      {
+        "Chapter": "16",
+        "Verses": "14"
+      },
+      {
+        "Chapter": "17",
+        "Verses": "14"
+      },
+      {
+        "Chapter": "18",
+        "Verses": "7"
+      },
+      {
+        "Chapter": "19",
+        "Verses": "25"
+      },
+      {
+        "Chapter": "20",
+        "Verses": "6"
+      },
+      {
+        "Chapter": "21",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "22",
+        "Verses": "25"
+      },
+      {
+        "Chapter": "23",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "24",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "25",
+        "Verses": "12"
+      },
+      {
+        "Chapter": "26",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "27",
+        "Verses": "13"
+      },
+      {
+        "Chapter": "28",
+        "Verses": "29"
+      },
+      {
+        "Chapter": "29",
+        "Verses": "24"
+      },
+      {
+        "Chapter": "30",
+        "Verses": "33"
+      },
+      {
+        "Chapter": "31",
+        "Verses": "9"
+      },
+      {
+        "Chapter": "32",
+        "Verses": "20"
+      },
+      {
+        "Chapter": "33",
+        "Verses": "24"
+      },
+      {
+        "Chapter": "34",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "35",
+        "Verses": "10"
+      },
+      {
+        "Chapter": "36",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "37",
+        "Verses": "38"
+      },
+      {
+        "Chapter": "38",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "39",
+        "Verses": "8"
+      },
+      {
+        "Chapter": "40",
+        "Verses": "31"
+      },
+      {
+        "Chapter": "41",
+        "Verses": "29"
+      },
+      {
+        "Chapter": "42",
+        "Verses": "25"
+      },
+      {
+        "Chapter": "43",
+        "Verses": "28"
+      },
+      {
+        "Chapter": "44",
+        "Verses": "28"
+      },
+      {
+        "Chapter": "45",
+        "Verses": "25"
+      },
+      {
+        "Chapter": "46",
+        "Verses": "13"
+      },
+      {
+        "Chapter": "47",
+        "Verses": "15"
+      },
+      {
+        "Chapter": "48",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "49",
+        "Verses": "26"
+      },
+      {
+        "Chapter": "50",
+        "Verses": "11"
+      },
+      {
+        "Chapter": "51",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "52",
+        "Verses": "15"
+      },
+      {
+        "Chapter": "53",
+        "Verses": "12"
+      },
+      {
+        "Chapter": "54",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "55",
+        "Verses": "13"
+      },
+      {
+        "Chapter": "56",
+        "Verses": "12"
+      },
+      {
+        "Chapter": "57",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "58",
+        "Verses": "14"
+      },
+      {
+        "Chapter": "59",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "60",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "61",
+        "Verses": "11"
+      },
+      {
+        "Chapter": "62",
+        "Verses": "12"
+      },
+      {
+        "Chapter": "63",
+        "Verses": "19"
+      },
+      {
+        "Chapter": "64",
+        "Verses": "12"
+      },
+      {
+        "Chapter": "65",
+        "Verses": "25"
+      },
+      {
+        "Chapter": "66",
+        "Verses": "24"
+      }
+    ],
+    "BookID": "23",
+    "BookName": "Isaiah",
+    "TotalChapters": "66",
+    "Volume": "OT"
+  },
+  "JER": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "19"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "37"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "25"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "31"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "31"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "30"
+      },
+      {
+        "Chapter": "7",
+        "Verses": "34"
+      },
+      {
+        "Chapter": "8",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "9",
+        "Verses": "26"
+      },
+      {
+        "Chapter": "10",
+        "Verses": "25"
+      },
+      {
+        "Chapter": "11",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "12",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "13",
+        "Verses": "27"
+      },
+      {
+        "Chapter": "14",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "15",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "16",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "17",
+        "Verses": "27"
+      },
+      {
+        "Chapter": "18",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "19",
+        "Verses": "15"
+      },
+      {
+        "Chapter": "20",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "21",
+        "Verses": "14"
+      },
+      {
+        "Chapter": "22",
+        "Verses": "30"
+      },
+      {
+        "Chapter": "23",
+        "Verses": "40"
+      },
+      {
+        "Chapter": "24",
+        "Verses": "10"
+      },
+      {
+        "Chapter": "25",
+        "Verses": "38"
+      },
+      {
+        "Chapter": "26",
+        "Verses": "24"
+      },
+      {
+        "Chapter": "27",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "28",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "29",
+        "Verses": "32"
+      },
+      {
+        "Chapter": "30",
+        "Verses": "24"
+      },
+      {
+        "Chapter": "31",
+        "Verses": "40"
+      },
+      {
+        "Chapter": "32",
+        "Verses": "44"
+      },
+      {
+        "Chapter": "33",
+        "Verses": "26"
+      },
+      {
+        "Chapter": "34",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "35",
+        "Verses": "19"
+      },
+      {
+        "Chapter": "36",
+        "Verses": "32"
+      },
+      {
+        "Chapter": "37",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "38",
+        "Verses": "28"
+      },
+      {
+        "Chapter": "39",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "40",
+        "Verses": "16"
+      },
+      {
+        "Chapter": "41",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "42",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "43",
+        "Verses": "13"
+      },
+      {
+        "Chapter": "44",
+        "Verses": "30"
+      },
+      {
+        "Chapter": "45",
+        "Verses": "5"
+      },
+      {
+        "Chapter": "46",
+        "Verses": "28"
+      },
+      {
+        "Chapter": "47",
+        "Verses": "7"
+      },
+      {
+        "Chapter": "48",
+        "Verses": "47"
+      },
+      {
+        "Chapter": "49",
+        "Verses": "39"
+      },
+      {
+        "Chapter": "50",
+        "Verses": "46"
+      },
+      {
+        "Chapter": "51",
+        "Verses": "64"
+      },
+      {
+        "Chapter": "52",
+        "Verses": "34"
+      }
+    ],
+    "BookID": "24",
+    "BookName": "Jeremiah",
+    "TotalChapters": "52",
+    "Volume": "OT"
+  },
+  "LAM": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "66"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "22"
+      }
+    ],
+    "BookID": "25",
+    "BookName": "Lamentations",
+    "TotalChapters": "5",
+    "Volume": "OT"
+  },
+  "EZEK": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "28"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "10"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "27"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "14"
+      },
+      {
+        "Chapter": "7",
+        "Verses": "27"
+      },
+      {
+        "Chapter": "8",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "9",
+        "Verses": "11"
+      },
+      {
+        "Chapter": "10",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "11",
+        "Verses": "25"
+      },
+      {
+        "Chapter": "12",
+        "Verses": "28"
+      },
+      {
+        "Chapter": "13",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "14",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "15",
+        "Verses": "8"
+      },
+      {
+        "Chapter": "16",
+        "Verses": "63"
+      },
+      {
+        "Chapter": "17",
+        "Verses": "24"
+      },
+      {
+        "Chapter": "18",
+        "Verses": "32"
+      },
+      {
+        "Chapter": "19",
+        "Verses": "14"
+      },
+      {
+        "Chapter": "20",
+        "Verses": "49"
+      },
+      {
+        "Chapter": "21",
+        "Verses": "32"
+      },
+      {
+        "Chapter": "22",
+        "Verses": "31"
+      },
+      {
+        "Chapter": "23",
+        "Verses": "49"
+      },
+      {
+        "Chapter": "24",
+        "Verses": "27"
+      },
+      {
+        "Chapter": "25",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "26",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "27",
+        "Verses": "36"
+      },
+      {
+        "Chapter": "28",
+        "Verses": "26"
+      },
+      {
+        "Chapter": "29",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "30",
+        "Verses": "26"
+      },
+      {
+        "Chapter": "31",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "32",
+        "Verses": "32"
+      },
+      {
+        "Chapter": "33",
+        "Verses": "33"
+      },
+      {
+        "Chapter": "34",
+        "Verses": "31"
+      },
+      {
+        "Chapter": "35",
+        "Verses": "15"
+      },
+      {
+        "Chapter": "36",
+        "Verses": "38"
+      },
+      {
+        "Chapter": "37",
+        "Verses": "28"
+      },
+      {
+        "Chapter": "38",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "39",
+        "Verses": "29"
+      },
+      {
+        "Chapter": "40",
+        "Verses": "49"
+      },
+      {
+        "Chapter": "41",
+        "Verses": "26"
+      },
+      {
+        "Chapter": "42",
+        "Verses": "20"
+      },
+      {
+        "Chapter": "43",
+        "Verses": "27"
+      },
+      {
+        "Chapter": "44",
+        "Verses": "31"
+      },
+      {
+        "Chapter": "45",
+        "Verses": "25"
+      },
+      {
+        "Chapter": "46",
+        "Verses": "24"
+      },
+      {
+        "Chapter": "47",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "48",
+        "Verses": "35"
+      }
+    ],
+    "BookID": "26",
+    "BookName": "Ezekiel",
+    "TotalChapters": "48",
+    "Volume": "OT"
+  },
+  "DAN": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "49"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "30"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "37"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "31"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "28"
+      },
+      {
+        "Chapter": "7",
+        "Verses": "28"
+      },
+      {
+        "Chapter": "8",
+        "Verses": "27"
+      },
+      {
+        "Chapter": "9",
+        "Verses": "27"
+      },
+      {
+        "Chapter": "10",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "11",
+        "Verses": "45"
+      },
+      {
+        "Chapter": "12",
+        "Verses": "13"
+      }
+    ],
+    "BookID": "27",
+    "BookName": "Daniel",
+    "TotalChapters": "12",
+    "Volume": "OT"
+  },
+  "HOS": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "11"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "5"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "19"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "15"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "11"
+      },
+      {
+        "Chapter": "7",
+        "Verses": "16"
+      },
+      {
+        "Chapter": "8",
+        "Verses": "14"
+      },
+      {
+        "Chapter": "9",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "10",
+        "Verses": "15"
+      },
+      {
+        "Chapter": "11",
+        "Verses": "12"
+      },
+      {
+        "Chapter": "12",
+        "Verses": "14"
+      },
+      {
+        "Chapter": "13",
+        "Verses": "16"
+      },
+      {
+        "Chapter": "14",
+        "Verses": "9"
+      }
+    ],
+    "BookID": "28",
+    "BookName": "Hosea",
+    "TotalChapters": "14",
+    "Volume": "OT"
+  },
+  "JOEL": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "20"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "32"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "21"
+      }
+    ],
+    "BookID": "29",
+    "BookName": "Joel",
+    "TotalChapters": "3",
+    "Volume": "OT"
+  },
+  "AMOS": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "15"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "16"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "15"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "13"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "27"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "14"
+      },
+      {
+        "Chapter": "7",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "8",
+        "Verses": "14"
+      },
+      {
+        "Chapter": "9",
+        "Verses": "15"
+      }
+    ],
+    "BookID": "30",
+    "BookName": "Amos",
+    "TotalChapters": "9",
+    "Volume": "OT"
+  },
+  "OBAD": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "21"
+      }
+    ],
+    "BookID": "31",
+    "BookName": "Obadiah",
+    "TotalChapters": "1",
+    "Volume": "OT"
+  },
+  "JONAH": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "10"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "10"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "11"
+      }
+    ],
+    "BookID": "32",
+    "BookName": "Jonah",
+    "TotalChapters": "4",
+    "Volume": "OT"
+  },
+  "MIC": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "16"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "13"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "12"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "13"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "15"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "16"
+      },
+      {
+        "Chapter": "7",
+        "Verses": "20"
+      }
+    ],
+    "BookID": "33",
+    "BookName": "Micah",
+    "TotalChapters": "7",
+    "Volume": "OT"
+  },
+  "NAH": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "15"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "13"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "19"
+      }
+    ],
+    "BookID": "34",
+    "BookName": "Nahum",
+    "TotalChapters": "3",
+    "Volume": "OT"
+  },
+  "HAB": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "20"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "19"
+      }
+    ],
+    "BookID": "35",
+    "BookName": "Habakkuk",
+    "TotalChapters": "3",
+    "Volume": "OT"
+  },
+  "ZEPH": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "15"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "20"
+      }
+    ],
+    "BookID": "36",
+    "BookName": "Zephaniah",
+    "TotalChapters": "3",
+    "Volume": "OT"
+  },
+  "HAG": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "15"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "23"
+      }
+    ],
+    "BookID": "37",
+    "BookName": "Haggai",
+    "TotalChapters": "2",
+    "Volume": "OT"
+  },
+  "ZECH": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "13"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "10"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "14"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "11"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "15"
+      },
+      {
+        "Chapter": "7",
+        "Verses": "14"
+      },
+      {
+        "Chapter": "8",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "9",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "10",
+        "Verses": "12"
+      },
+      {
+        "Chapter": "11",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "12",
+        "Verses": "14"
+      },
+      {
+        "Chapter": "13",
+        "Verses": "9"
+      },
+      {
+        "Chapter": "14",
+        "Verses": "21"
+      }
+    ],
+    "BookID": "38",
+    "BookName": "Zechariah",
+    "TotalChapters": "14",
+    "Volume": "OT"
+  },
+  "MAL": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "14"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "6"
+      }
+    ],
+    "BookID": "39",
+    "BookName": "Malachi",
+    "TotalChapters": "4",
+    "Volume": "OT"
+  },
+  "MATT": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "25"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "25"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "48"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "34"
+      },
+      {
+        "Chapter": "7",
+        "Verses": "29"
+      },
+      {
+        "Chapter": "8",
+        "Verses": "34"
+      },
+      {
+        "Chapter": "9",
+        "Verses": "38"
+      },
+      {
+        "Chapter": "10",
+        "Verses": "42"
+      },
+      {
+        "Chapter": "11",
+        "Verses": "30"
+      },
+      {
+        "Chapter": "12",
+        "Verses": "50"
+      },
+      {
+        "Chapter": "13",
+        "Verses": "58"
+      },
+      {
+        "Chapter": "14",
+        "Verses": "36"
+      },
+      {
+        "Chapter": "15",
+        "Verses": "39"
+      },
+      {
+        "Chapter": "16",
+        "Verses": "28"
+      },
+      {
+        "Chapter": "17",
+        "Verses": "27"
+      },
+      {
+        "Chapter": "18",
+        "Verses": "35"
+      },
+      {
+        "Chapter": "19",
+        "Verses": "30"
+      },
+      {
+        "Chapter": "20",
+        "Verses": "34"
+      },
+      {
+        "Chapter": "21",
+        "Verses": "46"
+      },
+      {
+        "Chapter": "22",
+        "Verses": "46"
+      },
+      {
+        "Chapter": "23",
+        "Verses": "39"
+      },
+      {
+        "Chapter": "24",
+        "Verses": "51"
+      },
+      {
+        "Chapter": "25",
+        "Verses": "46"
+      },
+      {
+        "Chapter": "26",
+        "Verses": "75"
+      },
+      {
+        "Chapter": "27",
+        "Verses": "66"
+      },
+      {
+        "Chapter": "28",
+        "Verses": "20"
+      }
+    ],
+    "BookID": "40",
+    "BookName": "Matthew",
+    "TotalChapters": "28",
+    "Volume": "NT"
+  },
+  "MARK": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "45"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "28"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "35"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "41"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "43"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "56"
+      },
+      {
+        "Chapter": "7",
+        "Verses": "37"
+      },
+      {
+        "Chapter": "8",
+        "Verses": "38"
+      },
+      {
+        "Chapter": "9",
+        "Verses": "50"
+      },
+      {
+        "Chapter": "10",
+        "Verses": "52"
+      },
+      {
+        "Chapter": "11",
+        "Verses": "33"
+      },
+      {
+        "Chapter": "12",
+        "Verses": "44"
+      },
+      {
+        "Chapter": "13",
+        "Verses": "37"
+      },
+      {
+        "Chapter": "14",
+        "Verses": "72"
+      },
+      {
+        "Chapter": "15",
+        "Verses": "47"
+      },
+      {
+        "Chapter": "16",
+        "Verses": "20"
+      }
+    ],
+    "BookID": "41",
+    "BookName": "Mark",
+    "TotalChapters": "16",
+    "Volume": "NT"
+  },
+  "LUKE": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "80"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "52"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "38"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "44"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "39"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "49"
+      },
+      {
+        "Chapter": "7",
+        "Verses": "50"
+      },
+      {
+        "Chapter": "8",
+        "Verses": "56"
+      },
+      {
+        "Chapter": "9",
+        "Verses": "62"
+      },
+      {
+        "Chapter": "10",
+        "Verses": "42"
+      },
+      {
+        "Chapter": "11",
+        "Verses": "54"
+      },
+      {
+        "Chapter": "12",
+        "Verses": "59"
+      },
+      {
+        "Chapter": "13",
+        "Verses": "35"
+      },
+      {
+        "Chapter": "14",
+        "Verses": "35"
+      },
+      {
+        "Chapter": "15",
+        "Verses": "32"
+      },
+      {
+        "Chapter": "16",
+        "Verses": "31"
+      },
+      {
+        "Chapter": "17",
+        "Verses": "37"
+      },
+      {
+        "Chapter": "18",
+        "Verses": "43"
+      },
+      {
+        "Chapter": "19",
+        "Verses": "48"
+      },
+      {
+        "Chapter": "20",
+        "Verses": "47"
+      },
+      {
+        "Chapter": "21",
+        "Verses": "38"
+      },
+      {
+        "Chapter": "22",
+        "Verses": "71"
+      },
+      {
+        "Chapter": "23",
+        "Verses": "56"
+      },
+      {
+        "Chapter": "24",
+        "Verses": "53"
+      }
+    ],
+    "BookID": "42",
+    "BookName": "Luke",
+    "TotalChapters": "24",
+    "Volume": "NT"
+  },
+  "JOHN": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "51"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "25"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "36"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "54"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "47"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "71"
+      },
+      {
+        "Chapter": "7",
+        "Verses": "53"
+      },
+      {
+        "Chapter": "8",
+        "Verses": "59"
+      },
+      {
+        "Chapter": "9",
+        "Verses": "41"
+      },
+      {
+        "Chapter": "10",
+        "Verses": "42"
+      },
+      {
+        "Chapter": "11",
+        "Verses": "57"
+      },
+      {
+        "Chapter": "12",
+        "Verses": "50"
+      },
+      {
+        "Chapter": "13",
+        "Verses": "38"
+      },
+      {
+        "Chapter": "14",
+        "Verses": "31"
+      },
+      {
+        "Chapter": "15",
+        "Verses": "27"
+      },
+      {
+        "Chapter": "16",
+        "Verses": "33"
+      },
+      {
+        "Chapter": "17",
+        "Verses": "26"
+      },
+      {
+        "Chapter": "18",
+        "Verses": "40"
+      },
+      {
+        "Chapter": "19",
+        "Verses": "42"
+      },
+      {
+        "Chapter": "20",
+        "Verses": "31"
+      },
+      {
+        "Chapter": "21",
+        "Verses": "25"
+      }
+    ],
+    "BookID": "43",
+    "BookName": "John",
+    "TotalChapters": "21",
+    "Volume": "NT"
+  },
+  "ACTS": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "26"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "47"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "26"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "37"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "42"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "15"
+      },
+      {
+        "Chapter": "7",
+        "Verses": "60"
+      },
+      {
+        "Chapter": "8",
+        "Verses": "40"
+      },
+      {
+        "Chapter": "9",
+        "Verses": "43"
+      },
+      {
+        "Chapter": "10",
+        "Verses": "48"
+      },
+      {
+        "Chapter": "11",
+        "Verses": "30"
+      },
+      {
+        "Chapter": "12",
+        "Verses": "25"
+      },
+      {
+        "Chapter": "13",
+        "Verses": "52"
+      },
+      {
+        "Chapter": "14",
+        "Verses": "28"
+      },
+      {
+        "Chapter": "15",
+        "Verses": "41"
+      },
+      {
+        "Chapter": "16",
+        "Verses": "40"
+      },
+      {
+        "Chapter": "17",
+        "Verses": "34"
+      },
+      {
+        "Chapter": "18",
+        "Verses": "28"
+      },
+      {
+        "Chapter": "19",
+        "Verses": "41"
+      },
+      {
+        "Chapter": "20",
+        "Verses": "38"
+      },
+      {
+        "Chapter": "21",
+        "Verses": "40"
+      },
+      {
+        "Chapter": "22",
+        "Verses": "30"
+      },
+      {
+        "Chapter": "23",
+        "Verses": "35"
+      },
+      {
+        "Chapter": "24",
+        "Verses": "27"
+      },
+      {
+        "Chapter": "25",
+        "Verses": "27"
+      },
+      {
+        "Chapter": "26",
+        "Verses": "32"
+      },
+      {
+        "Chapter": "27",
+        "Verses": "44"
+      },
+      {
+        "Chapter": "28",
+        "Verses": "31"
+      }
+    ],
+    "BookID": "44",
+    "BookName": "Acts",
+    "TotalChapters": "28",
+    "Volume": "NT"
+  },
+  "ROM": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "32"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "29"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "31"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "25"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "7",
+        "Verses": "25"
+      },
+      {
+        "Chapter": "8",
+        "Verses": "39"
+      },
+      {
+        "Chapter": "9",
+        "Verses": "33"
+      },
+      {
+        "Chapter": "10",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "11",
+        "Verses": "36"
+      },
+      {
+        "Chapter": "12",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "13",
+        "Verses": "14"
+      },
+      {
+        "Chapter": "14",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "15",
+        "Verses": "33"
+      },
+      {
+        "Chapter": "16",
+        "Verses": "27"
+      }
+    ],
+    "BookID": "45",
+    "BookName": "Romans",
+    "TotalChapters": "16",
+    "Volume": "NT"
+  },
+  "1COR": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "31"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "16"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "13"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "20"
+      },
+      {
+        "Chapter": "7",
+        "Verses": "40"
+      },
+      {
+        "Chapter": "8",
+        "Verses": "13"
+      },
+      {
+        "Chapter": "9",
+        "Verses": "27"
+      },
+      {
+        "Chapter": "10",
+        "Verses": "33"
+      },
+      {
+        "Chapter": "11",
+        "Verses": "34"
+      },
+      {
+        "Chapter": "12",
+        "Verses": "31"
+      },
+      {
+        "Chapter": "13",
+        "Verses": "13"
+      },
+      {
+        "Chapter": "14",
+        "Verses": "40"
+      },
+      {
+        "Chapter": "15",
+        "Verses": "58"
+      },
+      {
+        "Chapter": "16",
+        "Verses": "24"
+      }
+    ],
+    "BookID": "46",
+    "BookName": "1 Corinthians",
+    "TotalChapters": "16",
+    "Volume": "NT"
+  },
+  "2COR": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "24"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "7",
+        "Verses": "16"
+      },
+      {
+        "Chapter": "8",
+        "Verses": "24"
+      },
+      {
+        "Chapter": "9",
+        "Verses": "15"
+      },
+      {
+        "Chapter": "10",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "11",
+        "Verses": "33"
+      },
+      {
+        "Chapter": "12",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "13",
+        "Verses": "14"
+      }
+    ],
+    "BookID": "47",
+    "BookName": "2 Corinthians",
+    "TotalChapters": "13",
+    "Volume": "NT"
+  },
+  "GAL": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "24"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "29"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "31"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "26"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "18"
+      }
+    ],
+    "BookID": "48",
+    "BookName": "Galatians",
+    "TotalChapters": "6",
+    "Volume": "NT"
+  },
+  "EPH": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "32"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "33"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "24"
+      }
+    ],
+    "BookID": "49",
+    "BookName": "Ephesians",
+    "TotalChapters": "6",
+    "Volume": "NT"
+  },
+  "PHIL": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "30"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "30"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "23"
+      }
+    ],
+    "BookID": "50",
+    "BookName": "Philippians",
+    "TotalChapters": "4",
+    "Volume": "NT"
+  },
+  "COL": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "29"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "23"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "25"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "18"
+      }
+    ],
+    "BookID": "51",
+    "BookName": "Colossians",
+    "TotalChapters": "4",
+    "Volume": "NT"
+  },
+  "1THESS": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "10"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "20"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "13"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "28"
+      }
+    ],
+    "BookID": "52",
+    "BookName": "1 Thessalonians",
+    "TotalChapters": "5",
+    "Volume": "NT"
+  },
+  "2THESS": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "12"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "18"
+      }
+    ],
+    "BookID": "53",
+    "BookName": "2 Thessalonians",
+    "TotalChapters": "3",
+    "Volume": "NT"
+  },
+  "1TIM": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "20"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "15"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "16"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "16"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "25"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "21"
+      }
+    ],
+    "BookID": "54",
+    "BookName": "1 Timothy",
+    "TotalChapters": "6",
+    "Volume": "NT"
+  },
+  "2TIM": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "26"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "22"
+      }
+    ],
+    "BookID": "55",
+    "BookName": "2 Timothy",
+    "TotalChapters": "4",
+    "Volume": "NT"
+  },
+  "TITUS": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "16"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "15"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "15"
+      }
+    ],
+    "BookID": "56",
+    "BookName": "Titus",
+    "TotalChapters": "3",
+    "Volume": "NT"
+  },
+  "PHIM": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "25"
+      }
+    ],
+    "BookID": "57",
+    "BookName": "Philemon",
+    "TotalChapters": "1",
+    "Volume": "NT"
+  },
+  "HEB": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "14"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "19"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "16"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "14"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "20"
+      },
+      {
+        "Chapter": "7",
+        "Verses": "28"
+      },
+      {
+        "Chapter": "8",
+        "Verses": "13"
+      },
+      {
+        "Chapter": "9",
+        "Verses": "28"
+      },
+      {
+        "Chapter": "10",
+        "Verses": "39"
+      },
+      {
+        "Chapter": "11",
+        "Verses": "40"
+      },
+      {
+        "Chapter": "12",
+        "Verses": "29"
+      },
+      {
+        "Chapter": "13",
+        "Verses": "25"
+      }
+    ],
+    "BookID": "58",
+    "BookName": "Hebrews",
+    "TotalChapters": "13",
+    "Volume": "NT"
+  },
+  "JAS": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "27"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "26"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "20"
+      }
+    ],
+    "BookID": "59",
+    "BookName": "James",
+    "TotalChapters": "5",
+    "Volume": "NT"
+  },
+  "1PET": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "25"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "25"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "19"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "14"
+      }
+    ],
+    "BookID": "60",
+    "BookName": "1 Peter",
+    "TotalChapters": "5",
+    "Volume": "NT"
+  },
+  "2PET": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "18"
+      }
+    ],
+    "BookID": "61",
+    "BookName": "2 Peter",
+    "TotalChapters": "3",
+    "Volume": "NT"
+  },
+  "1JOHN": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "10"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "29"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "24"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "21"
+      }
+    ],
+    "BookID": "62",
+    "BookName": "1 John",
+    "TotalChapters": "5",
+    "Volume": "NT"
+  },
+  "2JOHN": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "13"
+      }
+    ],
+    "BookID": "63",
+    "BookName": "2 John",
+    "TotalChapters": "1",
+    "Volume": "NT"
+  },
+  "3JOHN": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "14"
+      }
+    ],
+    "BookID": "64",
+    "BookName": "3 John",
+    "TotalChapters": "1",
+    "Volume": "NT"
+  },
+  "JUDE": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "25"
+      }
+    ],
+    "BookID": "65",
+    "BookName": "Jude",
+    "TotalChapters": "1",
+    "Volume": "NT"
+  },
+  "REV": {
+    "Chapters": [
+      {
+        "Chapter": "1",
+        "Verses": "20"
+      },
+      {
+        "Chapter": "2",
+        "Verses": "29"
+      },
+      {
+        "Chapter": "3",
+        "Verses": "22"
+      },
+      {
+        "Chapter": "4",
+        "Verses": "11"
+      },
+      {
+        "Chapter": "5",
+        "Verses": "14"
+      },
+      {
+        "Chapter": "6",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "7",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "8",
+        "Verses": "13"
+      },
+      {
+        "Chapter": "9",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "10",
+        "Verses": "11"
+      },
+      {
+        "Chapter": "11",
+        "Verses": "19"
+      },
+      {
+        "Chapter": "12",
+        "Verses": "17"
+      },
+      {
+        "Chapter": "13",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "14",
+        "Verses": "20"
+      },
+      {
+        "Chapter": "15",
+        "Verses": "8"
+      },
+      {
+        "Chapter": "16",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "17",
+        "Verses": "18"
+      },
+      {
+        "Chapter": "18",
+        "Verses": "24"
+      },
+      {
+        "Chapter": "19",
+        "Verses": "21"
+      },
+      {
+        "Chapter": "20",
+        "Verses": "15"
+      },
+      {
+        "Chapter": "21",
+        "Verses": "27"
+      },
+      {
+        "Chapter": "22",
+        "Verses": "21"
+      }
+    ],
+    "BookID": "66",
+    "BookName": "Revelation",
+    "TotalChapters": "22",
+    "Volume": "NT"
+  }
+}
