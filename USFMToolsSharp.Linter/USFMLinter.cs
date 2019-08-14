@@ -19,12 +19,8 @@ namespace USFMToolsSharp.Linter
         };
         public async Task<List<LinterResult>> Lint(USFMDocument input)
         {
-            var watch = System.Diagnostics.Stopwatch.StartNew();
             List<LinterResult> output = new List<LinterResult>();
             output = await PerformLintParallelAsync(input);
-            watch.Stop();
-            var ellapsedMs = watch.ElapsedMilliseconds;
-            Console.WriteLine(ellapsedMs);
             return output;
         }
         private async Task<List<LinterResult>> PerformLintParallelAsync(USFMDocument root)
