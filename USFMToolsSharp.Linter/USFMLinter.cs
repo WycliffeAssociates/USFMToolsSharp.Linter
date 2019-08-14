@@ -14,7 +14,8 @@ namespace USFMToolsSharp.Linter
             new VerseMarkerValidation(),
             new MissingEndMarkers(),
             new UnpairedEndMarkers(),
-            new MissingTableRows()
+            new MissingTableRows(),
+            new UnorderedVerses()
         };
         public List<LinterResult> Lint(USFMDocument input)
         {
