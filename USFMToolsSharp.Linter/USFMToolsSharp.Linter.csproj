@@ -7,7 +7,7 @@
     <Authors>@rbnswartz, @BryanHo10</Authors>
     <Company>Wycliffe Associates</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>0.1.0</Version>
+    <Version>0.2.0</Version>
     <Copyright>2019 Wycliffe Associates</Copyright>
     <RepositoryUrl>https://github.com/wycliffeassociates/USFMToolsSharp.Linter</RepositoryUrl>
     <PackageTags>usfm, linter</PackageTags>
