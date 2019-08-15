@@ -17,12 +17,23 @@ namespace USFMToolsSharp.Linter
             new UnpairedEndMarkers(),
             new MissingTableRows()
         };
-        public async Task<List<LinterResult>> Lint(USFMDocument input)
+        public List<LinterResult> Lint(USFMDocument input)
+        {
+            List<LinterResult> output = new List<LinterResult>();
+            foreach (var linter in linters)
+            {
+                output.AddRange(linter.Lint(input));
+            }
+            return output;
+        }
+
+        public async Task<List<LinterResult>> LintAsync(USFMDocument input)
         {
             List<LinterResult> output = new List<LinterResult>();
             output = await PerformLintParallelAsync(input);
             return output;
         }
+
         private async Task<List<LinterResult>> PerformLintParallelAsync(USFMDocument root)
         {
             List<LinterResult> output = new List<LinterResult>();
