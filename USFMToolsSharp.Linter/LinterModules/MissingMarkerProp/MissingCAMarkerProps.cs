@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
-using System.Text;
-using USFMToolsSharp.Models;
+using USFMToolsSharp.Linter.LinterModules;
+using USFMToolsSharp.Linter.Models;
 using USFMToolsSharp.Models.Markers;
 
 namespace USFMToolsSharp.LinterModules
