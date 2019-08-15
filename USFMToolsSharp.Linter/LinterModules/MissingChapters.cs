@@ -7,6 +7,7 @@ using USFMToolsSharp.Linter.Models;
 using USFMToolsSharp.Models.Markers;
 using System.IO;
 using Newtonsoft.Json.Linq;
+using System.Linq;
 
 namespace USFMToolsSharp.Linter.LinterModules
 {
@@ -19,11 +20,11 @@ namespace USFMToolsSharp.Linter.LinterModules
         public List<LinterResult> Lint(USFMDocument input)
         {
             List<LinterResult> results = new List<LinterResult>();
-            Dictionary<string, int> chapterCounts = populateBookData();
+            Dictionary<string, List<int>> chapterCounts = populateBookData();
             List<Marker> chapters = new List<Marker>();
+            List<string> bookIDs = new List<string>();
 
             string currentID ="";
-            int chapterMaxCount = -1;
 
 
             foreach (Marker marker in input.Contents)
@@ -31,39 +32,34 @@ namespace USFMToolsSharp.Linter.LinterModules
                 if(marker is IDMarker)
                 {
                     currentID = ((IDMarker)marker).TextIdentifier.Split(' ')[0].ToUpper();
-                    if (chapterMaxCount > 0)
-                    {
-                        if(chapters.Count != chapterMaxCount)
-                        {
-                            results.Add(new LinterResult
-                            {
-                                Position = chapters[chapters.Count-1].Position,
-                                Level = LinterLevel.Warning,
-                                Message = $"Chapter count is a little off in the book of {currentID}."
-                            });
-                        }
-                    }
-                    
-                    if(chapterCounts.ContainsKey(currentID))
-                    {
-                        chapters.Clear();
-                        chapterMaxCount = chapterCounts[currentID];
-                    }                    
+                    bookIDs.Add(currentID);
                 }
                 if(marker is CMarker)
                 {
                     chapters.Add(marker);
+                    if (chapterCounts.ContainsKey(currentID))
+                    {
+                        chapterCounts[currentID].Remove(((CMarker)marker).Number);
+                    }
                 }
 
             }
-            if (chapters.Count != chapterMaxCount)
+            foreach(KeyValuePair<string, List<int>> entry in chapterCounts)
             {
-                results.Add(new LinterResult
+                if (bookIDs.Contains(entry.Key))
                 {
-                    Position = chapters[chapters.Count - 1].Position,
-                    Level = LinterLevel.Warning,
-                    Message = $"Chapter count is a little off in the book of {currentID}."
-                });
+                    foreach (int missingChapter in entry.Value)
+                    {
+                        results.Add(new LinterResult
+                        {
+                            Position = chapters[chapters.Count - 1].Position,
+                            Level = LinterLevel.Warning,
+                            Message = $"Missing Chapter {missingChapter} in the book of {entry.Key}."
+                        });
+
+                    }
+                }
+                
             }
 
             return results;
@@ -72,13 +68,13 @@ namespace USFMToolsSharp.Linter.LinterModules
         /// Extracts the Book ID (Abbreviation) and Total Number of Chapters into a Dictionary
         /// </summary>
         /// <returns></returns>
-        private Dictionary<string,int> populateBookData()
+        private Dictionary<string,List<int>> populateBookData()
         {
-            JObject data = retrieveBibleMetadata();
-            Dictionary<string, int> output = new Dictionary<string, int>();
+            JObject data = retrieveBibleMetadata(@"./metadata.json");
+            Dictionary<string, List<int>> output = new Dictionary<string, List<int>>();
             foreach (JProperty book in data.Properties())
             {
-                output[book.Name] = Int32.Parse(data[book.Name]["TotalChapters"].ToString());
+                output[book.Name] = Enumerable.Range(1, Int32.Parse(data[book.Name]["TotalChapters"].ToString())).ToList(); 
             }
             return output;
         }
@@ -86,9 +82,9 @@ namespace USFMToolsSharp.Linter.LinterModules
         /// Retrieves Bible metadata from local json file (MetaData.json)
         /// </summary>
         /// <returns></returns>
-        private JObject retrieveBibleMetadata()
+        private JObject retrieveBibleMetadata(string fileName)
         {
-            string jsonData = File.ReadAllText(@"./MetaData.json");
+            string jsonData = File.ReadAllText(fileName);
             return JObject.Parse(jsonData);
             
         }
