@@ -1,11 +1,28 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>A Linter for USFM using USFMToolsSharp</Description>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Authors>@rbnswartz, @BryanHo10</Authors>
+    <Company>Wycliffe Associates</Company>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.0.1</Version>
+    <Copyright>2019 Wycliffe Associates</Copyright>
+    <RepositoryUrl>https://github.com/wycliffeassociates/USFMToolsSharp.Linter</RepositoryUrl>
+    <PackageTags>usfm, linter</PackageTags>
+    <PackageProjectUrl>https://github.com/wycliffeassociates/USFMToolsSharp.Linter</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="USFMToolsSharp" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\USFMToolsSharp\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
