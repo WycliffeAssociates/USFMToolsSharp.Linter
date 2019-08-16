@@ -8,6 +8,7 @@ using USFMToolsSharp.Models.Markers;
 using System.IO;
 using Newtonsoft.Json.Linq;
 using System.Linq;
+using static USFMToolsSharp.Linter.Models.Versisification;
 
 namespace USFMToolsSharp.Linter.LinterModules
 {
@@ -17,6 +18,11 @@ namespace USFMToolsSharp.Linter.LinterModules
     /// </summary>
     public class MissingChapters : ILinterModule
     {
+        public Versisification ScriptureConfig;
+        public MissingChapters(Versisification input)
+        {
+            ScriptureConfig = input;
+        }
         public List<LinterResult> Lint(USFMDocument input)
         {
             List<LinterResult> results = new List<LinterResult>();
@@ -70,23 +76,13 @@ namespace USFMToolsSharp.Linter.LinterModules
         /// <returns></returns>
         private Dictionary<string,List<int>> populateBookData()
         {
-            JObject data = retrieveBibleMetadata(@"./metadata.json");
             Dictionary<string, List<int>> output = new Dictionary<string, List<int>>();
-            foreach (JProperty book in data.Properties())
+            foreach (KeyValuePair<string,Book> book in ScriptureConfig.metadata)
             {
-                output[book.Name] = Enumerable.Range(1, Int32.Parse(data[book.Name]["TotalChapters"].ToString())).ToList(); 
+                output[book.Key] = Enumerable.Range(1, book.Value.TotalChapters).ToList(); 
             }
             return output;
         }
-        /// <summary>
-        /// Retrieves Bible metadata from local json file (MetaData.json)
-        /// </summary>
-        /// <returns></returns>
-        private JObject retrieveBibleMetadata(string fileName)
-        {
-            string jsonData = File.ReadAllText(fileName);
-            return JObject.Parse(jsonData);
-            
-        }
+
     }
 }

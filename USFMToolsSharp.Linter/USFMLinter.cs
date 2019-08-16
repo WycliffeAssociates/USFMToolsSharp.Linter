@@ -9,14 +9,20 @@ namespace USFMToolsSharp.Linter
 {
     public class USFMLinter
     {
+        public Versisification metadata;
         public List<ILinterModule> linters = new List<ILinterModule>() {
             new FindUnknownMarkers(),
             new VerseMarkerValidation(),
             new MissingEndMarkers(),
             new UnpairedEndMarkers(),
-            new MissingTableRows(),
-            new MissingChapters()
+            new MissingTableRows()
+            
         };
+        public USFMLinter(Versisification input)
+        {
+            metadata = input;
+            linters.Add(new MissingChapters(metadata));
+        }
         public List<LinterResult> Lint(USFMDocument input)
         {
             List<LinterResult> output = new List<LinterResult>();
