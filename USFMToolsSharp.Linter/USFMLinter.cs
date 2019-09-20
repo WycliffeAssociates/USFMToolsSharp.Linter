@@ -4,6 +4,7 @@ using System.Text;
 using System.Threading.Tasks;
 using USFMToolsSharp.Linter.LinterModules;
 using USFMToolsSharp.Linter.Models;
+using USFMToolsSharp.LinterModules;
 using USFMToolsSharp.Models.Markers;
 
 namespace USFMToolsSharp.Linter
@@ -15,7 +16,44 @@ namespace USFMToolsSharp.Linter
             new VerseMarkerValidation(),
             new MissingEndMarkers(),
             new UnpairedEndMarkers(),
-            new MissingTableRows()
+            new MissingTableRows(),
+            // Check null/empty marker properties
+            new MissingCAMarkerProps(),
+            new MissingCLMarkerProps(),
+            new MissingCMarkerProps(),
+            new MissingCPMarkerProps(),
+            new MissingFKMarkerProps(),
+            new MissingFMarkerProps(),
+            new MissingFRMarkerProps(),
+            new MissingFVMarkerProps(),
+            new MissingHMarkerProps(),
+            new MissingIDEMarkerProps(),
+            new MissingIDMarkerProps(),
+            new MissingIMTMarkerProps(),
+            new MissingIOTMarkerProps(),
+            new MissingISMarkerProps(),
+            new MissingMRMarkerProps(),
+            new MissingMSMarkerProps(),
+            new MissingMTMarkerProps(),
+            new MissingQACMarkerProps(),
+            new MissingQAMarkerProps(),
+            new MissingREMMarkerProps(),
+            new MissingSMarkerProps(),
+            new MissingSPMarkerProps(),
+            new MissingSTSMarkerProps(),
+            new MissingTOC1MarkerProps(),
+            new MissingTOC2MarkerProps(),
+            new MissingTOC3MarkerProps(),
+            new MissingTOCA1MarkerProps(),
+            new MissingTOCA2MarkerProps(),
+            new MissingTOCA3MarkerProps(),
+            new MissingUSFMMarkerProps(),
+            new MissingVAMarkerProps(),
+            new MissingVPMarkerProps(),
+            new MissingWMarkerProps(),
+            new MissingXMarkerProps(),
+            new MissingXOMarkerProps(),
+
         };
         public List<LinterResult> Lint(USFMDocument input)
         {
