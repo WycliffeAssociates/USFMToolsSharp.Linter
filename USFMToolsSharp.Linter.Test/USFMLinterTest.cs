@@ -25,10 +25,13 @@ namespace USFMToolsSharp.Linter.Test
         public void TestUnknownMarker()
         {
             USFMParser parser = new USFMParser();
-            USFMDocument doc = parser.ParseFromString("Invalid tag: \\cheese");
+            USFMDocument doc = parser.ParseFromString("Invalid marker: \\cheese");
             USFMLinter linter = new USFMLinter();
             List<LinterResult> results = linter.Lint(doc);
-            Assert.AreEqual(0, results.Count);
+            Assert.AreEqual(1, results.Count);
+            LinterResult warning = results[0];
+            Assert.AreEqual("The marker cheese is unknown", warning.Message);
+            Assert.AreEqual(16, warning.Position);
         }
 
 
