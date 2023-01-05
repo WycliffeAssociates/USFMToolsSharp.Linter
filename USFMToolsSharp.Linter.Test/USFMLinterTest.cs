@@ -11,13 +11,7 @@ namespace USFMToolsSharp.Linter.Test
     {
 
         [TestMethod]
-        public void TestBasic()
-        {
-            Assert.IsTrue(true);
-        }
-
-        [TestMethod]
-        public void TestParse()
+        public void TestSmoke()
         {
             USFMParser parser = new USFMParser();
             USFMDocument doc = parser.ParseFromString("\\v 1 In the beginning \\bd God \\bd*");
@@ -26,6 +20,16 @@ namespace USFMToolsSharp.Linter.Test
             Assert.AreEqual(0, results.Count);
         }
 
+
+        [TestMethod]
+        public void TestUnknownMarker()
+        {
+            USFMParser parser = new USFMParser();
+            USFMDocument doc = parser.ParseFromString("Invalid tag: \\cheese");
+            USFMLinter linter = new USFMLinter();
+            List<LinterResult> results = linter.Lint(doc);
+            Assert.AreEqual(0, results.Count);
+        }
 
 
     }
