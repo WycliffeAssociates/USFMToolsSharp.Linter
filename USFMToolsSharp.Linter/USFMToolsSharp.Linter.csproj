@@ -3,7 +3,6 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Description>A Linter for USFM using USFMToolsSharp</Description>
-    <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <Authors>@rbnswartz, @BryanHo10</Authors>
     <Company>Wycliffe Associates</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -16,13 +15,6 @@
 
   <ItemGroup>
     <PackageReference Include="USFMToolsSharp" Version="1.9.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="..\..\USFMToolsSharp\LICENSE">
-      <Pack>True</Pack>
-      <PackagePath></PackagePath>
-    </None>
   </ItemGroup>
 
 </Project>
