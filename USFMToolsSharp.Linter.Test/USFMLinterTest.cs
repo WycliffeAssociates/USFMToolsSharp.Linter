@@ -11,9 +11,9 @@ namespace USFMToolsSharp.Linter.Test
     {
 
         [TestMethod]
-        public void TestSmoke()
+        public void TestNoWarnings()
         {
-            USFMParser parser = new USFMParser();
+            USFMParser parser = new();
             USFMDocument doc = parser.ParseFromString("\\v 1 In the beginning \\bd God \\bd*");
             USFMLinter linter = new USFMLinter();
             List<LinterResult> results = linter.Lint(doc);
@@ -24,7 +24,7 @@ namespace USFMToolsSharp.Linter.Test
         [TestMethod]
         public void TestUnknownMarker()
         {
-            USFMParser parser = new USFMParser();
+            USFMParser parser = new();
             USFMDocument doc = parser.ParseFromString("Invalid marker: \\cheese");
             USFMLinter linter = new USFMLinter();
             List<LinterResult> results = linter.Lint(doc);
