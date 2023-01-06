@@ -9,7 +9,7 @@ namespace USFMToolsSharp.Linter.LinterModules
     class MissingEndMarkers : ILinterModule
     {
         public Dictionary<Type, Type> markerPairs;
-        public List<LinterResult> Lint(USFMDocument input)
+        public List<LinterResult> Lint(USFMDocument root)
         {
             List<LinterResult> missingEndMarkers = new List<LinterResult>();
             markerPairs = new Dictionary<Type, Type>
@@ -37,24 +37,23 @@ namespace USFMToolsSharp.Linter.LinterModules
                 {typeof(XMarker), typeof(XEndMarker)},
             };
 
-            return CheckChildMarkers(input);
+            return CheckChildMarkers(root);
 
         }
         /// <summary>
         /// Iterates through all children markers
         /// </summary>
-        /// <param name="input"></param>
         /// <param name="root"></param>
         /// <returns></returns>
-        public List<LinterResult> CheckChildMarkers(USFMDocument input)
+        public List<LinterResult> CheckChildMarkers(USFMDocument root)
         {
             List<LinterResult> results = new List<LinterResult>();
 
-            foreach(Marker marker in input.Contents)
+            foreach(Marker marker in root.Contents)
             {
                 if (markerPairs.ContainsKey(marker.GetType()))
                 {
-                    results.AddRange(CheckEndMarker(marker, input));
+                    results.AddRange(CheckEndMarker(marker, root));
                 }
             }
             return results;
@@ -65,7 +64,7 @@ namespace USFMToolsSharp.Linter.LinterModules
         /// <param name="marker"></param>
         /// <param name="root"></param>
         /// <returns></returns>
-        public List<LinterResult> CheckEndMarker(Marker marker,USFMDocument root)
+        public List<LinterResult> CheckEndMarker(Marker marker, USFMDocument root)
         {
             List<int> markerPositions = new List<int>();
             List<Marker> hierarchy = root.GetHierarchyToMarker(marker);
