@@ -10,7 +10,7 @@ namespace USFMToolsSharp.Linter.LinterModules
     class UnpairedEndMarkers : ILinterModule
     {
         public Dictionary<Type, Type> markerPairs;
-        public List<LinterResult> Lint(USFMDocument input)
+        public List<LinterResult> Lint(USFMDocument root)
         {
             List<LinterResult> missingEndMarkers = new List<LinterResult>();
             markerPairs = new Dictionary<Type, Type>
@@ -38,12 +38,8 @@ namespace USFMToolsSharp.Linter.LinterModules
                 {typeof(WEndMarker),typeof(WMarker)},
                 {typeof(XEndMarker), typeof(XMarker)},
             };
-            foreach (Marker marker in input.Contents)
-            {
-                missingEndMarkers.AddRange(CheckChildMarkers(marker, input));
-            }
-            return missingEndMarkers;
 
+            return CheckChildMarkers(root);
         }
         /// <summary>
         /// Iterates through all children markers
@@ -51,39 +47,38 @@ namespace USFMToolsSharp.Linter.LinterModules
         /// <param name="input"></param>
         /// <param name="root"></param>
         /// <returns></returns>
-        public List<LinterResult> CheckChildMarkers(Marker input, USFMDocument root)
+        public List<LinterResult> CheckChildMarkers(USFMDocument root)
         {
             List<LinterResult> results = new List<LinterResult>();
 
-            foreach (Marker marker in input.Contents)
+            foreach (Marker marker in root.Contents)
             {
                 if (markerPairs.ContainsKey(marker.GetType()))
                 {
                     results.AddRange(CheckOpenMarker(marker, root));
                 }
-                results.AddRange(CheckChildMarkers(marker, root));
             }
             return results;
         }
         /// <summary>
         /// Checks Opening Marker for Unique End Marker 
         /// </summary>
-        /// <param name="input"></param>
+        /// <param name="marker"></param>
         /// <param name="root"></param>
         /// <returns></returns>
-        public List<LinterResult> CheckOpenMarker(Marker input, USFMDocument root)
+        public List<LinterResult> CheckOpenMarker(Marker marker, USFMDocument root)
         {
             List<int> markerPositions = new List<int>();
-            List<Marker> hierarchy = root.GetHierarchyToMarker(input);
+            List<Marker> hierarchy = root.GetHierarchyToMarker(marker);
             List<Marker> siblingMarkers = new List<Marker>(hierarchy[hierarchy.Count - 2].Contents);
             siblingMarkers.Reverse();
             foreach (Marker sibling in siblingMarkers)
             {
-                if (sibling.GetType() == input.GetType())
+                if (sibling.GetType() == marker.GetType())
                 {
                     markerPositions.Add(sibling.Position);
                 }
-                else if (sibling.GetType() == markerPairs[input.GetType()])
+                else if (sibling.GetType() == markerPairs[marker.GetType()])
                 {
                     if (markerPositions.Count > 0)
                     {
@@ -98,7 +93,7 @@ namespace USFMToolsSharp.Linter.LinterModules
                 {
                     Position = loneMarkerPosition,
                     Level = LinterLevel.Error,
-                    Message = $"Missing Opening marker for {input.GetType().Name}"
+                    Message = $"Missing opening marker for {marker.Identifier}"
                 });
 
             }
