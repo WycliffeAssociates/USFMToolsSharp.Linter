@@ -39,7 +39,7 @@ namespace USFMToolsSharp.Linter.LinterModules
                 {typeof(XEndMarker), typeof(XMarker)},
             };
 
-            return CheckChildMarkers(root);
+            return CheckChildMarkers(root, root.Contents);
         }
         /// <summary>
         /// Iterates through all children markers
@@ -47,16 +47,17 @@ namespace USFMToolsSharp.Linter.LinterModules
         /// <param name="input"></param>
         /// <param name="root"></param>
         /// <returns></returns>
-        public List<LinterResult> CheckChildMarkers(USFMDocument root)
+        public List<LinterResult> CheckChildMarkers(USFMDocument root, List<Marker> markers)
         {
             List<LinterResult> results = new List<LinterResult>();
 
-            foreach (Marker marker in root.Contents)
+            foreach (Marker marker in markers)
             {
                 if (markerPairs.ContainsKey(marker.GetType()))
                 {
-                    results.AddRange(CheckOpenMarker(marker, root));
+                    results.AddRange(CheckOpenMarker(root, marker));
                 }
+                results.AddRange(CheckChildMarkers(root, marker.Contents));
             }
             return results;
         }
@@ -66,7 +67,7 @@ namespace USFMToolsSharp.Linter.LinterModules
         /// <param name="marker"></param>
         /// <param name="root"></param>
         /// <returns></returns>
-        public List<LinterResult> CheckOpenMarker(Marker marker, USFMDocument root)
+        public List<LinterResult> CheckOpenMarker(USFMDocument root, Marker marker)
         {
             List<int> markerPositions = new List<int>();
             List<Marker> hierarchy = root.GetHierarchyToMarker(marker);
