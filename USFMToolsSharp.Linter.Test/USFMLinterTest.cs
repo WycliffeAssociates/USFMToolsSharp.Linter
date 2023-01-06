@@ -55,6 +55,64 @@ namespace USFMToolsSharp.Linter.Test
             Assert.AreEqual(44, warning1.Position);
         }
 
+        [TestMethod]
+        public void TestPairedEndMarker()
+        {
+            USFMParser parser = new();
+            USFMDocument doc = parser.ParseFromString("\\bd This is bold \\bd*");
+            USFMLinter linter = new USFMLinter();
+            List<LinterResult> results = linter.Lint(doc);
 
+            Assert.AreEqual(0, results.Count);
+        }
+
+        [TestMethod]
+        public void TestUnpairedEndMarker()
+        {
+            USFMParser parser = new();
+            USFMDocument doc = parser.ParseFromString("This is not bold \\bd*");
+            USFMLinter linter = new USFMLinter();
+            List<LinterResult> results = linter.Lint(doc);
+
+            Assert.AreEqual(1, results.Count);
+
+            LinterResult warning = results[0];
+            Assert.AreEqual("Missing Openning marker for bd*", warning.Message);
+            Assert.AreEqual(17, warning.Position);
+        }
+
+        [TestMethod]
+        public void TestMultipleUnpairedEndMarker()
+        {
+            USFMParser parser = new();
+            USFMDocument doc = parser.ParseFromString("This is not bold \\bd* \\add*");
+            USFMLinter linter = new USFMLinter();
+            List<LinterResult> results = linter.Lint(doc);
+
+            Assert.AreEqual(2, results.Count);
+
+            LinterResult warning0 = results[0];
+            Assert.AreEqual("Missing Openning marker for bd*", warning0.Message);
+            Assert.AreEqual(17, warning0.Position);
+
+            LinterResult warning1 = results[1];
+            Assert.AreEqual("Missing Openning marker for add*", warning1.Message);
+            Assert.AreEqual(23, warning1.Position);
+        }
+
+        [TestMethod]
+        public void TestUnpairedWithPairedMarkers()
+        {
+            USFMParser parser = new();
+            USFMDocument doc = parser.ParseFromString("\\bd This is bold \\bd* \\bd*");
+            USFMLinter linter = new USFMLinter();
+            List<LinterResult> results = linter.Lint(doc);
+
+            Assert.AreEqual(1, results.Count);
+
+            LinterResult warning = results[0];
+            Assert.AreEqual("Missing Openning marker for bd*", warning.Message);
+            Assert.AreEqual(24, warning.Position);
+        }
     }
 }
