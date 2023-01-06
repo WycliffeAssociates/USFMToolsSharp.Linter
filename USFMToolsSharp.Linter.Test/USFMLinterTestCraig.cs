@@ -10,10 +10,7 @@ namespace USFMToolsSharp.Linter.Test
     public class USFMLinterTestCraig
     {
 
-        [TestMethod]
-        public void TestMissingEndMarker()
-        {
-            List<string> markersToTest = new List<string>() {
+        List<string> markersToTest = new List<string>() {
                 "add",
                 "bd",
                 "bdit",
@@ -37,6 +34,25 @@ namespace USFMToolsSharp.Linter.Test
                 "x"
             };
 
+        [TestMethod]
+        public void TestPresentEndMarker()
+        {
+            USFMParser parser = new();
+
+            foreach (string marker in markersToTest)
+            {
+                USFMDocument doc = parser.ParseFromString($"Text \\{marker} with end marker \\{marker}*");
+                USFMLinter linter = new USFMLinter();
+                List<LinterResult> results = linter.Lint(doc);
+
+                Assert.AreEqual(0, results.Count);
+            }
+
+        }
+
+        [TestMethod]
+        public void TestMissingEndMarker()
+        {
             USFMParser parser = new();
 
             foreach (string marker in markersToTest)
@@ -53,10 +69,5 @@ namespace USFMToolsSharp.Linter.Test
             }
 
         }
-
-
-
-
-
     }
 }
