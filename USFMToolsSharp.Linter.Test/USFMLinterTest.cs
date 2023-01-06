@@ -189,7 +189,7 @@ namespace USFMToolsSharp.Linter.Test
                 Assert.AreEqual(1, results.Count);
 
                 LinterResult warning = results[0];
-                Assert.AreEqual($"Missing Openning marker for {marker}*", warning.Message);
+                Assert.AreEqual($"Missing opening marker for {marker}*", warning.Message);
                 Assert.AreEqual(21, warning.Position);
             }
         }
