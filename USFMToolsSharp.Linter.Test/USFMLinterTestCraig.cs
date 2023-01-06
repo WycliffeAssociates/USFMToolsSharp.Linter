@@ -9,8 +9,7 @@ namespace USFMToolsSharp.Linter.Test
     [TestClass]
     public class USFMLinterTestCraig
     {
-
-        List<string> markersToTest = new List<string>() {
+        readonly List<string> markersToTest = new() {
                 "add",
                 "bd",
                 "bdit",
@@ -42,7 +41,7 @@ namespace USFMToolsSharp.Linter.Test
             foreach (string marker in markersToTest)
             {
                 USFMDocument doc = parser.ParseFromString($"Text \\{marker} with end marker \\{marker}*");
-                USFMLinter linter = new USFMLinter();
+                USFMLinter linter = new();
                 List<LinterResult> results = linter.Lint(doc);
 
                 Assert.AreEqual(0, results.Count);
@@ -58,7 +57,7 @@ namespace USFMToolsSharp.Linter.Test
             foreach (string marker in markersToTest)
             {
                 USFMDocument doc = parser.ParseFromString($"Text \\{marker} with no end marker");
-                USFMLinter linter = new USFMLinter();
+                USFMLinter linter = new();
                 List<LinterResult> results = linter.Lint(doc);
 
                 Assert.AreEqual(1, results.Count);
