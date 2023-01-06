@@ -205,12 +205,12 @@ namespace USFMToolsSharp.Linter.Test
             Assert.AreEqual(2, results.Count);
 
             LinterResult warning0 = results[0];
-            Assert.AreEqual("Missing Openning marker for bd*", warning0.Message);
+            Assert.AreEqual("Missing opening marker for bd*", warning0.Message);
             Assert.AreEqual(17, warning0.Position);
 
             LinterResult warning1 = results[1];
-            Assert.AreEqual("Missing Openning marker for add*", warning1.Message);
-            Assert.AreEqual(23, warning1.Position);
+            Assert.AreEqual("Missing opening marker for add*", warning1.Message);
+            Assert.AreEqual(22, warning1.Position);
         }
 
         [TestMethod]
