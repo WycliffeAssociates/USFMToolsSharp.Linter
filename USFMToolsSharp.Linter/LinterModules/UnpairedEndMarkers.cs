@@ -39,7 +39,7 @@ namespace USFMToolsSharp.Linter.LinterModules
                 {typeof(XEndMarker), typeof(XMarker)},
             };
 
-            return CheckChildMarkers(root, root.Contents);
+            return CheckChildMarkers(root, root.Contents).Distinct(new LinterResultComparer()).ToList();
         }
         /// <summary>
         /// Iterates through all children markers
@@ -59,8 +59,11 @@ namespace USFMToolsSharp.Linter.LinterModules
                 }
                 results.AddRange(CheckChildMarkers(root, marker.Contents));
             }
+
             return results;
         }
+
+
         /// <summary>
         /// Checks Opening Marker for Unique End Marker 
         /// </summary>
