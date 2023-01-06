@@ -37,11 +37,7 @@ namespace USFMToolsSharp.Linter.LinterModules
                 {typeof(XMarker), typeof(XEndMarker)},
             };
 
-            foreach (Marker marker in input.Contents)
-            {
-                missingEndMarkers.AddRange(CheckChildMarkers(marker, input));
-            }
-            return missingEndMarkers;
+            return CheckChildMarkers(input);
 
         }
         /// <summary>
@@ -50,7 +46,7 @@ namespace USFMToolsSharp.Linter.LinterModules
         /// <param name="input"></param>
         /// <param name="root"></param>
         /// <returns></returns>
-        public List<LinterResult> CheckChildMarkers(Marker input,USFMDocument root)
+        public List<LinterResult> CheckChildMarkers(USFMDocument input)
         {
             List<LinterResult> results = new List<LinterResult>();
 
@@ -58,30 +54,29 @@ namespace USFMToolsSharp.Linter.LinterModules
             {
                 if (markerPairs.ContainsKey(marker.GetType()))
                 {
-                    results.AddRange(CheckEndMarker(marker, root));
+                    results.AddRange(CheckEndMarker(marker, input));
                 }
-                results.AddRange(CheckChildMarkers(marker, root));
             }
             return results;
         }
         /// <summary>
         /// Checks Closing Marker for Unique Marker 
         /// </summary>
-        /// <param name="input"></param>
+        /// <param name="marker"></param>
         /// <param name="root"></param>
         /// <returns></returns>
-        public List<LinterResult> CheckEndMarker(Marker input,USFMDocument root)
+        public List<LinterResult> CheckEndMarker(Marker marker,USFMDocument root)
         {
             List<int> markerPositions = new List<int>();
-            List<Marker> hierarchy = root.GetHierarchyToMarker(input);
+            List<Marker> hierarchy = root.GetHierarchyToMarker(marker);
             List<Marker> siblingMarkers = hierarchy[hierarchy.Count - 2].Contents;
             foreach (Marker sibling in siblingMarkers)
             {
-                if (sibling.GetType() == input.GetType())
+                if (sibling.GetType() == marker.GetType())
                 {
                     markerPositions.Add(sibling.Position);
                 }
-                else if (sibling.GetType() == markerPairs[input.GetType()])
+                else if (sibling.GetType() == markerPairs[marker.GetType()])
                 {
                     if (markerPositions.Count > 0)
                     {
@@ -96,7 +91,7 @@ namespace USFMToolsSharp.Linter.LinterModules
                 {
                     Position = loneMarkerPosition,
                     Level = LinterLevel.Error,
-                    Message = $"Missing Closing marker for {input.GetType().Name}"
+                    Message = $"Missing closing marker for {marker.Identifier}"
                 });
 
             }
