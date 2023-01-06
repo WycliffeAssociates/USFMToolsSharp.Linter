@@ -10,6 +10,32 @@ namespace USFMToolsSharp.Linter.Test
     public class USFMLinterTest
     {
 
+        List<string> pairedMarkers = new List<string>() {
+                "add",
+                "bd",
+                "bdit",
+                "bk",
+                "ca",
+                "em",
+                "fv",
+                "ior",
+                "it",
+                "nd",
+                "no",
+                "qac",
+                "qs",
+                "rq",
+                "sc",
+                "sup",
+                "tl",
+                "va",
+                "vp",
+                "w",
+                "x"
+            };
+
+
+
         [TestMethod]
         public void TestNoWarnings()
         {
@@ -55,30 +81,25 @@ namespace USFMToolsSharp.Linter.Test
             Assert.AreEqual(44, warning1.Position);
         }
 
-        [TestMethod]
-        public void TestPairedEndMarker()
-        {
-            USFMParser parser = new();
-            USFMDocument doc = parser.ParseFromString("\\bd This is bold \\bd*");
-            USFMLinter linter = new USFMLinter();
-            List<LinterResult> results = linter.Lint(doc);
 
-            Assert.AreEqual(0, results.Count);
-        }
 
         [TestMethod]
-        public void TestUnpairedEndMarker()
+        public void TestUnpairedEndMarkers()
         {
             USFMParser parser = new();
-            USFMDocument doc = parser.ParseFromString("This is not bold \\bd*");
-            USFMLinter linter = new USFMLinter();
-            List<LinterResult> results = linter.Lint(doc);
 
-            Assert.AreEqual(1, results.Count);
+            foreach (string marker in pairedMarkers)
+            {
+                USFMDocument doc = parser.ParseFromString($"Test unpaired marker \\{marker}*");
+                USFMLinter linter = new USFMLinter();
+                List<LinterResult> results = linter.Lint(doc);
 
-            LinterResult warning = results[0];
-            Assert.AreEqual("Missing Openning marker for bd*", warning.Message);
-            Assert.AreEqual(17, warning.Position);
+                Assert.AreEqual(1, results.Count);
+
+                LinterResult warning = results[0];
+                Assert.AreEqual($"Missing Openning marker for {marker}*", warning.Message);
+                Assert.AreEqual(21, warning.Position);
+            }
         }
 
         [TestMethod]
@@ -105,6 +126,21 @@ namespace USFMToolsSharp.Linter.Test
         {
             USFMParser parser = new();
             USFMDocument doc = parser.ParseFromString("\\bd This is bold \\bd* \\bd*");
+            USFMLinter linter = new USFMLinter();
+            List<LinterResult> results = linter.Lint(doc);
+
+            Assert.AreEqual(1, results.Count);
+
+            LinterResult warning = results[0];
+            Assert.AreEqual("Missing Openning marker for bd*", warning.Message);
+            Assert.AreEqual(24, warning.Position);
+        }
+
+        [TestMethod]
+        public void TestUnpairedMarkersInPositions()
+        {
+            USFMParser parser = new();
+            USFMDocument doc = parser.ParseFromString("\\v 1 verse one in bold \\bd* with stuff after");
             USFMLinter linter = new USFMLinter();
             List<LinterResult> results = linter.Lint(doc);
 
