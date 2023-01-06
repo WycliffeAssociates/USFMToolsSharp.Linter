@@ -84,6 +84,79 @@ namespace USFMToolsSharp.Linter.Test
 
 
         [TestMethod]
+        public void TestValidVerseMarker()
+        {
+            USFMParser parser = new();
+            USFMDocument doc = parser.ParseFromString("\\v 1 \\v 2 \\v 123");
+            USFMLinter linter = new USFMLinter();
+            List<LinterResult> results = linter.Lint(doc);
+
+            Assert.AreEqual(0, results.Count);
+        }
+
+        [TestMethod]
+        public void TestNegativeVerseMarker()
+        {
+            USFMParser parser = new();
+            USFMDocument doc = parser.ParseFromString("spacing before \\v -1");
+            USFMLinter linter = new USFMLinter();
+            List<LinterResult> results = linter.Lint(doc);
+
+            Assert.AreEqual(1, results.Count);
+
+            LinterResult warning = results[0];
+            Assert.AreEqual("Verse number is invalid", warning.Message);
+            Assert.AreEqual(15, warning.Position);
+        }
+
+        [TestMethod]
+        public void TestInvalidVerseMarker()
+        {
+            USFMParser parser = new();
+            USFMDocument doc = parser.ParseFromString("spacing before \\v invalid");
+            USFMLinter linter = new USFMLinter();
+            List<LinterResult> results = linter.Lint(doc);
+
+            Assert.AreEqual(1, results.Count);
+
+            LinterResult warning = results[0];
+            Assert.AreEqual("Verse number is invalid", warning.Message);
+            Assert.AreEqual(15, warning.Position);
+        }
+
+        [TestMethod]
+        public void TestMissingVerseMarker1()
+        {
+            USFMParser parser = new();
+            USFMDocument doc = parser.ParseFromString("spacing before \\v");
+            USFMLinter linter = new USFMLinter();
+            List<LinterResult> results = linter.Lint(doc);
+
+            Assert.AreEqual(1, results.Count);
+
+            LinterResult warning = results[0];
+            Assert.AreEqual("Verse number is missing", warning.Message);
+            Assert.AreEqual(15, warning.Position);
+        }
+
+        [TestMethod]
+        public void TestMissingVerseMarker2()
+        {
+            USFMParser parser = new();
+            USFMDocument doc = parser.ParseFromString("spacing before \\v \\bd stuff \\bd*");
+            USFMLinter linter = new USFMLinter();
+            List<LinterResult> results = linter.Lint(doc);
+
+            Assert.AreEqual(1, results.Count);
+
+            LinterResult warning = results[0];
+            Assert.AreEqual("Verse number is missing", warning.Message);
+            Assert.AreEqual(15, warning.Position);
+        }
+
+
+
+        [TestMethod]
         public void TestUnpairedEndMarkers()
         {
             USFMParser parser = new();
