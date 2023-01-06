@@ -13,16 +13,45 @@ namespace USFMToolsSharp.Linter.Test
         [TestMethod]
         public void TestMissingEndMarker()
         {
+            List<string> markersToTest = new List<string>() {
+                "add",
+                "bd",
+                "bdit",
+                "bk",
+                "ca",
+                "em",
+                "fv",
+                "ior",
+                "it",
+                "nd",
+                "no",
+                "qac",
+                "qs",
+                "rq",
+                "sc",
+                "sup",
+                "tl",
+                "va",
+                "vp",
+                "w",
+                "x"
+            };
+
             USFMParser parser = new();
-            USFMDocument doc = parser.ParseFromString("Text \\sup Missing End Marker");
-            USFMLinter linter = new USFMLinter();
-            List<LinterResult> results = linter.Lint(doc);
 
-            Assert.AreEqual(1, results.Count);
+            foreach (string marker in markersToTest)
+            {
+                USFMDocument doc = parser.ParseFromString($"Text \\{marker} with no end marker");
+                USFMLinter linter = new USFMLinter();
+                List<LinterResult> results = linter.Lint(doc);
 
-            LinterResult warning = results[0];
-            Assert.AreEqual("Missing closing marker for sup", warning.Message);
-            Assert.AreEqual(5, warning.Position);
+                Assert.AreEqual(1, results.Count);
+
+                LinterResult warning = results[0];
+                Assert.AreEqual($"Missing closing marker for {marker}", warning.Message);
+                Assert.AreEqual(5, warning.Position);
+            }
+
         }
 
 
