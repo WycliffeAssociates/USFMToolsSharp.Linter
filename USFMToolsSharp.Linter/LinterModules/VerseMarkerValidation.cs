@@ -9,7 +9,7 @@ namespace USFMToolsSharp.Linter.LinterModules
 {
     public class VerseMarkerValidation : ILinterModule
     {
-        private static Regex ValidRegex = new Regex("^[0-9\\-]+$");
+        private static Regex ValidRegex = new Regex("^[1-9][0-9]*(-[1-9][0-9]*)?$");
         public List<LinterResult> Lint(USFMDocument input)
         {
             List<LinterResult> output = new List<LinterResult>();
