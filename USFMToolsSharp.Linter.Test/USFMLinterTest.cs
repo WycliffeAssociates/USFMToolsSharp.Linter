@@ -87,7 +87,7 @@ namespace USFMToolsSharp.Linter.Test
         public void TestValidVerseMarker()
         {
             USFMParser parser = new();
-            USFMDocument doc = parser.ParseFromString("\\v 1 \\v 2 \\v 123");
+            USFMDocument doc = parser.ParseFromString("\\v 1 \\v 2 \\v 1-23");
             USFMLinter linter = new USFMLinter();
             List<LinterResult> results = linter.Lint(doc);
 
@@ -95,10 +95,25 @@ namespace USFMToolsSharp.Linter.Test
         }
 
         [TestMethod]
-        public void TestNegativeVerseMarker()
+        public void TestInvalidDoubleVerseRange()
         {
             USFMParser parser = new();
-            USFMDocument doc = parser.ParseFromString("spacing before \\v -1");
+            USFMDocument doc = parser.ParseFromString("spacing before \\v 1-2-3");
+            USFMLinter linter = new USFMLinter();
+            List<LinterResult> results = linter.Lint(doc);
+
+            Assert.AreEqual(1, results.Count);
+
+            LinterResult warning = results[0];
+            Assert.AreEqual("Verse number is invalid", warning.Message);
+            Assert.AreEqual(15, warning.Position);
+        }
+
+        [TestMethod]
+        public void TestReverseOrderInvalidVerseRange()
+        {
+            USFMParser parser = new();
+            USFMDocument doc = parser.ParseFromString("spacing before \\v 3-1");
             USFMLinter linter = new USFMLinter();
             List<LinterResult> results = linter.Lint(doc);
 
@@ -158,7 +173,7 @@ namespace USFMToolsSharp.Linter.Test
         public void TestMultipleInvalidVerseMarkers()
         {
             USFMParser parser = new();
-            USFMDocument doc = parser.ParseFromString("spacing before \\v \\bd stuff \\bd* \\v");
+            USFMDocument doc = parser.ParseFromString("spacing before \\v \\bd stuff \\bd* \\v 1-2-3");
             USFMLinter linter = new USFMLinter();
             List<LinterResult> results = linter.Lint(doc);
 
@@ -169,7 +184,7 @@ namespace USFMToolsSharp.Linter.Test
             Assert.AreEqual(15, warning0.Position);
 
             LinterResult warning1 = results[1];
-            Assert.AreEqual("Verse number is missing", warning1.Message);
+            Assert.AreEqual("Verse number is invalid", warning1.Message);
             Assert.AreEqual(33, warning1.Position);
         }
 
