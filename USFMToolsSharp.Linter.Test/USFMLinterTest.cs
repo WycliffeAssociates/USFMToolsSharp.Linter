@@ -95,6 +95,21 @@ namespace USFMToolsSharp.Linter.Test
         }
 
         [TestMethod]
+        public void TestZeroVerseRange()
+        {
+            USFMParser parser = new();
+            USFMDocument doc = parser.ParseFromString("spacing before \\v 0");
+            USFMLinter linter = new USFMLinter();
+            List<LinterResult> results = linter.Lint(doc);
+
+            Assert.AreEqual(1, results.Count);
+
+            LinterResult warning = results[0];
+            Assert.AreEqual("Verse number is invalid", warning.Message);
+            Assert.AreEqual(15, warning.Position);
+        }
+
+        [TestMethod]
         public void TestInvalidDoubleVerseRange()
         {
             USFMParser parser = new();
